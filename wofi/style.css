@@ -1,0 +1,39 @@
+window {
+  margin: 5px;
+  font-family: "Nunito Sans";
+  background-color: #333333;
+  color: white;
+}
+
+#input {
+  margin: 12px;
+  background-color: #222222;
+  border: 1px solid #333333;
+  font-size: 36px;
+  color: white;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+#inner-box {
+  padding: 24px;
+  margin: 12px;
+  background-color: #222222;
+}
+
+#outer-box {
+  padding: 12px 12px 24px 12px;
+}
+
+#text {
+  font-size: 24px;
+}
+
+#text:selected {
+  color: #222222;
+}
+
+#entry:selected {
+  background-color: #9d65ff;
+  font-weight: bold;
+}
