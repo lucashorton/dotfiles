@@ -1,0 +1,23 @@
+source ~/.dotfiles/zsh/antigen.zsh
+
+export NVM_COMPLETION=true
+export NVM_AUTO_USE=true
+export EDITOR=nvim
+
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle lukechilds/zsh-nvm
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen theme denysdovhan/spaceship-prompt
+
+antigen apply
+
+alias w='curl wttr.in'
+alias vi='nvim'
+alias vim='nvim'
+alias mutt='neomutt'
+alias orphan='yay -Rns $(pacman -Qtdq)'
+archey3

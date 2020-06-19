@@ -1,0 +1,6 @@
+*.gpg
+*.log
+*.db
+*.lock
+newsboat/history.cmdline
+newsboat/urls

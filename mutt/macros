@@ -1,0 +1,4 @@
+# Save all attachments
+macro pager S "<pipe-message> ripmime -i - -d ~/Downloads && rm ~/Downloads/textfile*" "Save all non-text attachments using ripmime"
+#List URLs
+macro pager \cb <pipe-entry>'urlview'<enter> 'Follow links with urlview'

@@ -1,0 +1,39 @@
+source "gpg -dq $HOME/.config/mutt/mutt-credentials.gpg |"
+set editor=`echo \$EDITOR`
+
+set realname=$my_name
+set from=$my_from
+set use_from=yes
+set sendmail="/usr/bin/msmtp"
+
+set imap_user=$my_user
+set imap_pass=$my_pass
+set folder=$my_folder
+unset imap_passive
+set imap_keepalive=300
+set mail_check=60
+
+set header_cache="~/.cache/mutt"
+set message_cachedir="~/.cache/mutt"
+set spoolfile=+INBOX
+set record=+Sent
+set postponed=+Drafts
+set trash=+Trash
+save-hook . "+Archive"
+mailboxes = +INBOX +Sent +Drafts +Archive
+
+set text_flowed
+set sidebar_visible
+set mail_check_stats
+set sidebar_format='%B%?F? [%F]?%* %?N?%N/?%S'
+set sort=threads
+set sort_aux=last-date-received
+set sleep_time = 0
+set fast_reply=yes
+set include=yes
+set mailcap_path=$HOME/.config/mutt/mailcap
+alternative_order text/plain text/enriched text/html
+auto_view text/html
+
+source ~/.config/mutt/colors
+source ~/.config/mutt/bindings
