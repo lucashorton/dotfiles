@@ -1,24 +1,33 @@
 window {
-  margin: 5px;
   font-family: "Nunito Sans";
-  background-color: #333333;
+
+  margin: 5px;
+
   color: white;
+  background-color: #333;
 }
 
 #input {
-  margin: 12px;
-  background-color: #222222;
-  border: 1px solid #333333;
   font-size: 36px;
-  color: white;
-  padding: 12px;
+
+  margin: 12px;
   margin-bottom: 12px;
+  padding: 12px;
+
+  color: white;
+  border: 1px solid #333;
+  background-color: #222;
+}
+
+#input:focus {
+  border: 1px solid #9d65ff;
 }
 
 #inner-box {
-  padding: 24px;
   margin: 12px;
-  background-color: #222222;
+  padding: 24px;
+
+  background-color: #222;
 }
 
 #outer-box {
@@ -30,10 +39,11 @@ window {
 }
 
 #text:selected {
-  color: #222222;
+  color: #222;
 }
 
 #entry:selected {
-  background-color: #9d65ff;
   font-weight: bold;
+
+  background-color: #9d65ff;
 }
