@@ -4,3 +4,6 @@
 *.lock
 newsboat/history.cmdline
 newsboat/urls
+restic/b2_credentials.sh
+restic/exclude.txt
+restic/include.txt

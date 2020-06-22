@@ -6,6 +6,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'csscomb/vim-csscomb'
+Plug 'fmoralesc/vim-tutor-mode'
 call plug#end()
 
 :set number
