@@ -1,0 +1,5 @@
+#!/bin/sh
+unset RESTIC_PASSWORD
+unset B2_ACCOUNT_ID 
+unset B2_ACCOUNT_KEY
+unset export RESTIC_REPOSITORY
