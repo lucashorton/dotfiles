@@ -20,7 +20,7 @@ window {
 }
 
 #input:focus {
-  border: 1px solid #9d65ff;
+  border: 1px solid #58d1eb;
 }
 
 #inner-box {
@@ -45,5 +45,5 @@ window {
 #entry:selected {
   font-weight: bold;
 
-  background-color: #9d65ff;
+  background-color: #58d1eb;
 }
