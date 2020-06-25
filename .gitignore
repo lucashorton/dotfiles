@@ -11,4 +11,5 @@ restic/include.txt
 mpd/database
 mpd/log
 mpd/pid
+mpd/state
 mpd/sticker.sql
