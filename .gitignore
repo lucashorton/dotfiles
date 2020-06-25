@@ -8,3 +8,7 @@ restic/set_env.sh
 restic/exclude.txt
 restic/include.txt
 *.wants
+mpd/database
+mpd/log
+mpd/pid
+mpd/sticker.sql
