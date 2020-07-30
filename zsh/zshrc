@@ -3,6 +3,7 @@ source ~/.dotfiles/zsh/antigen.zsh
 export NVM_COMPLETION=true
 export NVM_AUTO_USE=true
 export EDITOR=nvim
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 antigen use oh-my-zsh
 

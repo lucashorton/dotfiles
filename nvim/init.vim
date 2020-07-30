@@ -14,7 +14,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
-:set number
+set number
+set noshowmode
 
 let g:ale_fixers = {
 \   'javascript': ['prettier'],

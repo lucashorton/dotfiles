@@ -28,15 +28,6 @@ window#waybar.solo {
 }
 */
 
-window#waybar.termite {
-  background-color: #3f3f3f;
-}
-
-window#waybar.chromium {
-  background-color: #000000;
-  border: none;
-}
-
 #workspaces {
   margin-right: 10px;
 }
@@ -80,19 +71,10 @@ window#waybar.chromium {
 #custom-media,
 #tray,
 #mode,
-#idle_inhibitor,
-#mpd {
+#idle_inhibitor {
   padding: 0 10px;
   margin: 0 4px;
   color: #ffffff;
-}
-
-#custom-brave,
-#custom-termite {
-  padding: 0 5px;
-  margin: 2px;
-  color: #ffffff;
-  font-size: 20px;
 }
 
 #clock {
@@ -145,11 +127,10 @@ label:focus {
 }
 
 #pulseaudio.muted {
-  color: #2a5c45;
+  color: #ff0000;
 }
 
 #custom-media {
-  color: #2a5c45;
   min-width: 100px;
 }
 
@@ -176,14 +157,15 @@ label:focus {
 }
 
 #mpd {
-  color: #2a5c45;
+  color: white;
 }
 
 #mpd.disconnected {
-  color: #f53c3c;
+  color: #ff0000;
 }
 
 #mpd.stopped {
+  color: rgba(0, 0, 0, 0);
 }
 
 #mpd.paused {
