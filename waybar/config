@@ -93,11 +93,10 @@
         "return-type": "json",
         "max-length": 40,
         "format-icons": {
-            "spotify": "",
-            "default": "🎜"
+            "spotify": ""
         },
         "escape": true,
-        "exec": "$HOME/.config/waybar/custom_modules/mediaplayer.py 2> /dev/null",
+        "exec": "$HOME/.config/waybar/custom_modules/mediaplayer.py --player spotify 2> /dev/null",
 	"on-click": "playerctl next"
     }
 }

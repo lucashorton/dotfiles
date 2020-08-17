@@ -11,6 +11,14 @@ exec_always {
     gsettings set $gnome-schema cursor-theme 'Volantes Cursors'
 }
 
+for_window [class="^.*"] border pixel 0
+default_border pixel 1
+default_floating_border pixel 0
+hide_edge_borders smart
+
+# Configure mouse
+input 9610:51:Glorious_Model_D scroll_factor 3.5
+
 # Set variables
 set $mod Mod4
 
@@ -22,7 +30,12 @@ set $right l
 
 # Your preferred terminal emulator
 set $term kitty 
-set $menu dmenu_path | wofi --show drun -i | xargs swaymsg exec --¬
+# set $menu dmenu_path | wofi --show drun -i | xargs swaymsg exec --¬
+exec /usr/bin/python3 /usr/bin/ulauncher --hide-window 1>> ~/ulauncher.log 2>&1
+set $menu ulauncher-toggle
+for_window [app_id="ulauncher"] floating enable
+for_window [app_id="ulauncher"] border none
+
 bindsym $mod+Return exec $term
 
 # Kill focused window
@@ -162,6 +175,8 @@ exec mako
 
 # Wallpaper
 output * bg /home/lucas/Pictures/wallhaven-6k38g7.jpg fill
+
+bindsym $mod+Shift+g exec grimshot screen
 
 # Start polkit
 exec lxpolkit

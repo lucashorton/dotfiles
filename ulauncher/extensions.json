@@ -1,0 +1,37 @@
+{
+    "com.github.the-lay.ulauncher-spotify-api": {
+        "id": "com.github.the-lay.ulauncher-spotify-api",
+        "url": "https://github.com/the-lay/ulauncher-spotify-api",
+        "updated_at": "2020-08-17T11:35:25.363783",
+        "last_commit": "422a303f0a305e809618dc34770c3ac0a85326c0",
+        "last_commit_time": "2020-08-14T14:09:48"
+    },
+    "com.github.ceroprogramming.ulauncher-pulsecontrol": {
+        "id": "com.github.ceroprogramming.ulauncher-pulsecontrol",
+        "url": "https://github.com/CeroProgramming/ulauncher-pulsecontrol",
+        "updated_at": "2020-08-17T11:37:23.743409",
+        "last_commit": "fd6af3d5f1f0b5bcf88dcd32e60b0c118bdfce6b",
+        "last_commit_time": "2020-08-17T15:59:49"
+    },
+    "com.github.isacikgoz.ukill": {
+        "id": "com.github.isacikgoz.ukill",
+        "url": "https://github.com/isacikgoz/ukill",
+        "updated_at": "2020-08-17T11:39:39.482219",
+        "last_commit": "bc50d9f41d46b6813a5aeebddd15734dcdb9d8db",
+        "last_commit_time": "2019-05-28T18:30:00"
+    },
+    "com.github.iboyperson.ulauncher-system": {
+        "id": "com.github.iboyperson.ulauncher-system",
+        "url": "https://github.com/iboyperson/ulauncher-system",
+        "updated_at": "2020-08-17T11:41:13.348856",
+        "last_commit": "8c30af5f99ee28bff8ae623c3ed0ff08110f26b4",
+        "last_commit_time": "2020-06-19T16:28:40"
+    },
+    "com.github.rdnetto.ulauncher-sway": {
+        "id": "com.github.rdnetto.ulauncher-sway",
+        "url": "https://github.com/rdnetto/ulauncher-sway",
+        "updated_at": "2020-08-17T11:41:59.595548",
+        "last_commit": "ca6e8365723fd444b302236fb72eded4a1378c3e",
+        "last_commit_time": "2020-07-01T16:04:10"
+    }
+}
