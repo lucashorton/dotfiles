@@ -97,6 +97,6 @@
         },
         "escape": true,
         "exec": "$HOME/.config/waybar/custom_modules/mediaplayer.py --player spotify 2> /dev/null",
-	"on-click": "playerctl next"
+	"on-click": "playerctl play-pause"
     }
 }

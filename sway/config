@@ -11,11 +11,6 @@ exec_always {
     gsettings set $gnome-schema cursor-theme 'Volantes Cursors'
 }
 
-for_window [class="^.*"] border pixel 0
-default_border pixel 1
-default_floating_border pixel 0
-hide_edge_borders smart
-
 # Configure mouse
 input 9610:51:Glorious_Model_D scroll_factor 3.5
 
@@ -103,8 +98,9 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # Window borders
-default_border pixel 1
-default_floating_border normal
+for_window [class="^.*"] border pixel 0
+default_border pixel 0
+default_floating_border pixel 0 
 hide_edge_borders smart
 smart_gaps on 
 gaps inner 20
@@ -159,10 +155,10 @@ bindsym $mod+r mode "resize"
 
 # Idle configuration
 exec swayidle -w \
-         timeout 600 'swaylock -f -c 000000' \
-         timeout 1200 'swaymsg "output * dpms off"' \
-              resume 'swaymsg "output * dpms on"' \
-         before-sleep 'swaylock -f -c 000000'
+	timeout 1200 'swaylock -f -c 000000' \
+	timeout 2400 'swaymsg "output * dpms off"' \
+	resume 'swaymsg "output * dpms on"' \
+	before-sleep 'swaylock -f -c 000000'
 
 # Set cursor theme
 seat seat0 xcursor_theme volantes_cursors 48
