@@ -1,9 +1,15 @@
 source ~/.dotfiles/zsh/antigen.zsh
 
+export TERM=vt100
 export NVM_COMPLETION=true
 export NVM_AUTO_USE=true
 export EDITOR=nvim
 export _JAVA_AWT_WM_NONREPARENTING=1
+export NVM_DIR=~/.nvm
+export NVM_COMPLETION=true
+export QT_QPA_PLATFORMTHEME='gnome'
+export GPG_TTY=$(tty)
+export XDG_CURRENT_DESKTOP=sway
 
 antigen use oh-my-zsh
 
@@ -11,8 +17,6 @@ antigen bundle git
 antigen bundle lukechilds/zsh-nvm
 antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
-
-antigen theme denysdovhan/spaceship-prompt
 
 antigen apply
 
@@ -23,17 +27,15 @@ alias mutt='neomutt'
 alias orphan='yay -Rns $(pacman -Qtdq)'
 alias m='ncmpcpp'
 alias img="kitty +kitten icat"
+alias sharescreen="wf-recorder --muxer=v4l2 --codec=rawvideo --pixel-format=yuv420p --file=/dev/video2"
 
-screenfetch -d "-gtk"
+pfetch
 
 unset SSH_AGENT_PID
 if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
   export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
 fi
 
-export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
 
-export QT_QPA_PLATFORMTHEME='gnome'
-
-export PATH=/home/lucas/.local/bin:$PATH
+eval "$(starship init zsh)"

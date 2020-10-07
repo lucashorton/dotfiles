@@ -6,7 +6,7 @@
 set $gnome-schema org.gnome.desktop.interface
 
 exec_always {
-    gsettings set $gnome-schema gtk-theme 'Arc-Black-Classic'
+    gsettings set $gnome-schema gtk-theme 'Arc-Dark'
     gsettings set $gnome-schema icon-theme 'Arc'
     gsettings set $gnome-schema cursor-theme 'Volantes Cursors'
 }
@@ -26,7 +26,7 @@ set $right l
 # Your preferred terminal emulator
 set $term kitty 
 # set $menu dmenu_path | wofi --show drun -i | xargs swaymsg exec --¬
-exec /usr/bin/python3 /usr/bin/ulauncher --hide-window 1>> ~/ulauncher.log 2>&1
+exec /usr/bin/python3 /usr/bin/ulauncher --hide-window 1
 set $menu ulauncher-toggle
 for_window [app_id="ulauncher"] floating enable
 for_window [app_id="ulauncher"] border none
@@ -170,7 +170,7 @@ exec_always ~/.config/waybar/waybar.sh
 exec mako
 
 # Wallpaper
-output * bg /home/lucas/Pictures/wallhaven-6k38g7.jpg fill
+output * bg /home/lucas/Pictures/lowpoly.jpg fill
 
 bindsym $mod+Shift+g exec grimshot screen
 
