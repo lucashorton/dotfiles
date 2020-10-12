@@ -1,4 +1,5 @@
 source ~/.dotfiles/zsh/antigen.zsh
+source ~/.dotfiles/zsh/secrets.zsh
 
 export TERM=vt100
 export NVM_COMPLETION=true
