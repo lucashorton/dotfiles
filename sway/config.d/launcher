@@ -1,7 +1,4 @@
-exec /usr/bin/python3 /usr/bin/ulauncher --hide-window 1
-set $menu ulauncher-toggle
-for_window [app_id="ulauncher"] floating enable
-for_window [app_id="ulauncher"] border none
+set $menu wofi -d --show run -W 500
 
 # Start your launcher
 bindsym $mod+d exec $menu
