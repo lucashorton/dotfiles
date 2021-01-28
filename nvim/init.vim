@@ -9,9 +9,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'csscomb/vim-csscomb'
 Plug 'sheerun/vim-polyglot'
 Plug 'pangloss/vim-javascript'
-Plug 'mcmartelle/vim-monokai-bold'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'joshdick/onedark.vim'
+
 call plug#end()
 
 set number
@@ -32,7 +33,7 @@ let g:ale_fixers = {
 let g:ale_fix_on_save = 1
 
 syntax on
-colorscheme monokai-bold
+colorscheme onedark 
 set termguicolors
 
 let g:airline_powerline_fonts = 1
