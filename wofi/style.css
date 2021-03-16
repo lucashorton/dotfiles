@@ -1,49 +1,38 @@
 window {
-  font-family: "Nunito Sans";
-
-  margin: 5px;
-
-  color: white;
-  background-color: #333;
+  margin: 0px;
+  border: 1px solid #5c6370;
+  background-color: #282c34;
+  font-size: 14pt;
 }
 
 #input {
-  font-size: 36px;
-
-  margin: 12px;
-  margin-bottom: 12px;
-  padding: 12px;
-
-  color: white;
-  border: 1px solid #333;
-  background-color: #222;
-}
-
-#input:focus {
-  border: 1px solid #58d1eb;
+  margin: 5px;
+  border: none;
+  color: #f8f8f2;
+  background-color: #5c6370;
 }
 
 #inner-box {
-  margin: 12px;
-  padding: 24px;
-
-  background-color: #222;
+  margin: 5px;
+  border: none;
 }
 
 #outer-box {
-  padding: 12px 12px 24px 12px;
+  margin: 5px;
+  border: none;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
 }
 
 #text {
-  font-size: 24px;
-}
-
-#text:selected {
-  color: #222;
+  margin: 5px;
+  border: none;
+  color: #f8f8f2;
 }
 
 #entry:selected {
-  font-weight: bold;
-
-  background-color: #58d1eb;
+  background-color: #56b6c2;
 }
