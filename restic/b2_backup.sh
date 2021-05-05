@@ -6,6 +6,7 @@ SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 2>&1
 
 source $SCRIPT_DIR/set_env.sh
+restic unlock
 
 echo "Starting backup to B2"
 

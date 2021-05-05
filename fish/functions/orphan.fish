@@ -1,3 +1,4 @@
+# Defined interactively
 function orphan
-    yay -Rns (pacman -Qtdq)
+yay -Qtdq | yay -Rns -
 end
