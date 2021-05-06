@@ -9,7 +9,7 @@
 }
 
 window#waybar {
-  background-color: #282c34; 
+  background-color: #282c34;
   color: #979eab;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -41,12 +41,13 @@ window#waybar.solo {
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button:hover {
   background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
   box-shadow: inherit;
 }
 
 #workspaces button.focused {
   background-color: rgba(0, 0, 0, 0.2);
-  color:#ffffff;
+  color: #ffffff;
 }
 
 #workspaces button.urgent {
@@ -55,7 +56,7 @@ window#waybar.solo {
 
 #mode {
   color: #e06c75;
-  font-size:16px;
+  font-size: 16px;
 }
 
 #clock,
