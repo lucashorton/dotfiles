@@ -9,8 +9,8 @@
 }
 
 window#waybar {
-  background-color: #444444; 
-  color: #ffffff;
+  background-color: #282c34; 
+  color: #979eab;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -34,7 +34,7 @@ window#waybar.solo {
 #workspaces button {
   padding: 0 5px;
   background-color: transparent;
-  color: #ffffff;
+  color: #979eab;
   border-bottom: 3px solid transparent;
 }
 
@@ -42,12 +42,11 @@ window#waybar.solo {
 #workspaces button:hover {
   background: rgba(0, 0, 0, 0.2);
   box-shadow: inherit;
-  border-bottom: 3px solid #ffffff;
 }
 
 #workspaces button.focused {
-  background-color: #64727d;
-  border-bottom: 3px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  color:#ffffff;
 }
 
 #workspaces button.urgent {
@@ -55,8 +54,8 @@ window#waybar.solo {
 }
 
 #mode {
-  background-color: #64727d;
-  border-bottom: 3px solid #ffffff;
+  color: #e06c75;
+  font-size:16px;
 }
 
 #clock,
@@ -69,11 +68,10 @@ window#waybar.solo {
 #pulseaudio,
 #custom-media,
 #tray,
-#mode,
 #idle_inhibitor {
   padding: 0 10px;
   margin: 0 4px;
-  color: #ffffff;
+  color: #979eab;
 }
 
 #clock {
