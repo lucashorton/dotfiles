@@ -4,7 +4,7 @@
     "height": 40, // Waybar height (to be removed for auto height)
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
-    "modules-right": ["custom/media", "pulseaudio", "network", "cpu", "memory", "temperature", "clock", "idle_inhibitor", "tray"],
+    "modules-right": ["custom/media", "pulseaudio", "network", "cpu", "memory", "temperature", "idle_inhibitor", "tray", "clock"],
     
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
@@ -41,7 +41,7 @@
         "format-ethernet": "{ipaddr}/{cidr} ",
         "format-linked": "(No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ipaddr}/{cidr}"
+	"on-click": "kitty nmtui-connect"
     },
     "pulseaudio": {
         "format": "{volume}% {icon} {format_source}",
