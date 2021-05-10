@@ -19,16 +19,16 @@ colors:
     text: CellForeground
 font:
   bold:
-    family: "Operator Mono SSm Lig"
+    family: "OperatorMonoSSm"
     style: Bold
   bold_italic:
-    family: "Operator Mono SSm Lig"
+    family: "OperatorMonoSSm"
     style: "Bold Italic"
   italic:
-    family: "Operator Mono SSm Lig"
+    family: "OperatorMonoSSm"
     style: Italic
   normal:
-    family: "Operator Mono SSm Lig"
+    family: "OperatorMonoSSm"
     style: Regular
   size: 12.0
 live_config_reload: true
