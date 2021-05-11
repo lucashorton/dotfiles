@@ -29,7 +29,7 @@ font:
     style: Italic
   normal:
     family: "OperatorMonoSSm"
-    style: Regular
+    style: Regular 
   size: 12.0
 live_config_reload: true
 window:
