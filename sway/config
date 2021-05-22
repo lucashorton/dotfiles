@@ -4,6 +4,6 @@
 
 # Start polkit
 exec lxpolkit
-
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 include ~/.config/sway/config.d/*
 include /etc/sway/config.d/*
