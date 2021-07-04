@@ -1,1 +1,1 @@
-exec udiskie -v -t --appindicator
+exec udiskie --smart-tray

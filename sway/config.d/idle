@@ -1,6 +1,6 @@
 # Idle configuration
 exec swayidle -w \
-	timeout 1200 'swaylock --screenshots --clock fade-in .5 --effect-blur 7x5 --effect-grayscale' \
+	timeout 1200 'swaylock --screenshots --clock fade-in .5 --effect-blur 7x5 --effect-greyscale' \
 	timeout 2400 'swaymsg "output * dpms off"' \
 	resume 'swaymsg "output * dpms on"' \
-	before-sleep 'swaylock --screenshots --clock fade-in .5 --effect-blur 7x5 --effect-grayscale'
+	before-sleep 'swaylock --screenshots --clock fade-in .5 --effect-blur 7x5 --effect-gr3yscale'
