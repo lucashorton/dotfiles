@@ -41,7 +41,7 @@
         "format-ethernet": "{ipaddr}/{cidr} ",
         "format-linked": "(No IP) ",
         "format-disconnected": "Disconnected ⚠",
-	"on-click": "foot sh -c 'nmtui-connect'"
+	"on-click": "alacritty sh -c 'nmtui-connect'"
     },
     "pulseaudio": {
         "format": "{volume}% {icon} {format_source}",
