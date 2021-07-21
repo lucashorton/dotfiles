@@ -14,3 +14,4 @@ mpd/pid
 mpd/state
 mpd/sticker.sql
 zsh/secrets.zsh
+hass-cli.fish

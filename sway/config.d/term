@@ -1,5 +1,0 @@
-# Your preferred terminal emulator
-set $term alacritty 
-# set $menu dmenu_path | wofi --show drun -i | xargs swaymsg exec --¬
-
-bindsym $mod+Return exec $term

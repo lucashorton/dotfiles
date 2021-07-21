@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
 SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
@@ -6,16 +6,17 @@ SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 2>&1
 
 source $SCRIPT_DIR/set_env.sh
+
 restic unlock
 
-echo "Starting backup to B2"
+echo "Starting B2 cleanup"
 
-restic backup --exclude-file=$SCRIPT_DIR/exclude.txt --exclude-caches --files-from=$SCRIPT_DIR/include.txt
+restic forget --keep-daily 7 --keep-weekly 4 --keep-monthly 12 --keep-yearly 1
 
-restic check
+restic prune
 
 exec $SCRIPT_DIR/unset_env.sh
 
-echo "Backup complete"
+echo "Cleanup complete"
 
 exit 0
