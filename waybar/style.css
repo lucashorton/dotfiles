@@ -3,14 +3,14 @@
   border-radius: 0;
   /* `otf-font-awesome` is required to be installed for icons */
   font-family: "Inter";
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   min-height: 0;
 }
 
 window#waybar {
-  background-color: #282c34;
-  color: #979eab;
+  background-color: #202020;
+  color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -34,8 +34,8 @@ window#waybar.solo {
 #workspaces button {
   padding: 0 5px;
   background-color: transparent;
-  color: #979eab;
-  border-bottom: 3px solid transparent;
+  color: #ffffff; 
+  border-bottom: none;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -46,7 +46,7 @@ window#waybar.solo {
 }
 
 #workspaces button.focused {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #3281ea;
   color: #ffffff;
 }
 
@@ -72,7 +72,9 @@ window#waybar.solo {
 #idle_inhibitor {
   padding: 0 10px;
   margin: 0 4px;
-  color: #979eab;
+  color: #ffffff;
+  font-weight:bold;
+  font-size:13px;
 }
 
 #clock {

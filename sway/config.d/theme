@@ -1,0 +1,8 @@
+set $gnome-schema org.gnome.desktop.interface
+
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Orchis-dark-compact'
+    gsettings set $gnome-schema icon-theme 'kora'
+    gsettings set $gnome-schema cursor-theme 'volantes_cursors'
+    gsettings set $gnome-schema font-name 'Cantarell'
+}
