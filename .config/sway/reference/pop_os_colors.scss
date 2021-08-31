@@ -1,0 +1,95 @@
+// Orange
+$orange: if($variant== "light", #ffad00, #fbb86c);
+$highlights_orange: if($variant== "light", #fbb86c, #ffad00);
+$text_orange: if($variant== "light", #af5c02, #ffd7a1);
+
+// blue
+$blue: if($variant== "light", #63b1bc, #6acad8);
+$highlights_blue: if($variant== "light", #6acad8, #63b1bc);
+$text_blue: if($variant== "light", #00496d, #94ebeb);
+
+// green
+$green: if($variant== "light", #82bf8c, #90cfb0);
+$highlights_green: if($variant== "light", #90cfb0, #82bf8c);
+$text_green: if($variant== "light", #3b6e43, #acf7d2);
+
+// red
+$red: if($variant== "light", #e56a54, #ea9090);
+$highlights_red: if($variant== "light", #ea9090, #e56a54);
+$text_red: if($variant== "light", #a0252b, #ffb5b5);
+
+// yellow
+$yellow: if($variant== "light", #fedb40, #f9d87a);
+$highlights_yellow: if($variant== "light", #fff19e, #fedb40);
+$text_yellow: if($variant== "light", #966800, #fff19e);
+
+// purple
+$purple: if($variant== "light", #cf7dff, #d58cff);
+$highlights_purple: if($variant== "light", #d58cff, #cf7dff);
+$text_purple: if($variant== "light", #813b96, #e5b3ff);
+
+// pink
+$pink: if($variant== "light", #f93a83, #ff9cdd);
+$highlights_pink: if($variant== "light", #ff9cdd, #ee4e88);
+$text_pink: if($variant== "light", #ad154f, #ffc1ee);
+
+// indigo
+$indigo: if($variant== "light", #3e88ff, #95c4fc);
+$highlights_indigo: if($variant== "light", #95c4fc, #5689e7);
+$text_indigo: if($variant== "light", #102a4c, #bddbff);
+
+// warm_grey
+$warm_grey: #ada29e;
+$light_warm_grey: #9b8eae;
+$dark_warm_grey: #574f4a;
+
+// ui
+
+// Light Neutral Grey
+$light_neutral_grey_100: #eee;
+$light_neutral_grey_300: #ccc;
+$light_neutral_grey_500: #aaa;
+$light_neutral_grey_700: #888;
+$light_neutral_grey_900: #666;
+
+// Dark Neutral Grey
+$dark_neutral_grey_100: #888;
+$dark_neutral_grey_300: #666;
+$dark_neutral_grey_500: #444;
+$dark_neutral_grey_700: #222;
+$dark_neutral_grey_900: #111;
+
+// Light UI
+$light_ui_100: #fcfcfc;
+$light_ui_300: #f6f6f6;
+$light_ui_500: #ededed;
+$light_ui_700: #e6e6e6;
+$light_ui_900: #dedede;
+
+// Dark UI
+$dark_ui_100: #474341;
+$dark_ui_300: #403c3a;
+$dark_ui_500: #393634;
+$dark_ui_700: #33302f;
+$dark_ui_900: #2b2928;
+
+$white: #fff;
+$black: #000;
+$mid_grey: #888;
+
+$gdm_grey: #36322f;
+$close_button_color: mix($orange, $red, 50%);
+
+//Colors for certain widgets
+$entry_color: if($variant== "light", #ffad00, #fbb86c);
+$close_button_color: mix($red, $orange, 50%);
+
+$panel_bg_color: darken(#2b2928, 3%);
+$dash_bg_color: $panel_bg_color;
+$panel-alpha-value: 0;
+$panel_opaque_value: 0;
+
+$dash-alpha-value: 0;
+$dash-opaque-alpha-value: 0;
+
+$system_bg_color: #36322f; //previously "gdm_grey"

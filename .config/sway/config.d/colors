@@ -1,0 +1,10 @@
+set $blue #94ebeb
+set $dark-gray	#2b2928
+set $light-gray #ebebeb
+set $medium-gray #888888
+set	$red #ffb5b5
+
+client.focused $dark-gray $dark-gray $light-gray $dark-gray
+client.focused_inactive	$dark-gray $dark-gray $medium-gray $dark-gray
+client.unfocused $dark-gray $dark-gray $medium-gray	$dark-gray
+client.urgent $red $red $light-gray $red

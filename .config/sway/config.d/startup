@@ -1,0 +1,4 @@
+exec bitwarden
+exec flatpak run com.nextcloud.desktopclient.nextcloud --background
+exec udiskie --tray --appindicator
+

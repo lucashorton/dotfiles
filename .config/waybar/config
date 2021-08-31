@@ -1,0 +1,110 @@
+{
+  "modules-left": [
+    "sway/workspaces",
+    "sway/window",
+    "sway/mode"
+  ],
+  "modules-center": [
+  ],
+  "modules-right": [
+    "custom/arch_updates",
+    "custom/playerctl",
+    "network",
+    "temperature",
+    "cpu",
+    "memory",
+    "tray",
+    "idle_inhibitor",
+    "pulseaudio",
+    "clock"
+  ],
+  "network": {
+    "format-wifi": "<span font=\"FontAwesome 5 Free Solid\"></span> {essid} ({signalStrength}%)",
+    "format-ethernet": "<span font=\"FontAwesome 5 Free Solid\"></span> {ipaddr}",
+    "format-disconnected": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+    "tooltip": false,
+    "max-length": 50,
+    "on-click": "footclient nmtui"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+      "deactivated": "<span font=\"FontAwesome 5 Free Solid\"></span>"
+    }
+  },
+  "tray": {
+    "icon-size": 16,
+    "spacing": 10,
+    "show-passive-items": true
+  },
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "cpu": {
+    "format": "<span font=\"FontAwesome 5 Free Solid\"></span> {usage}%",
+    "tooltip": false
+  },
+  "memory": {
+    "format": "<span font=\"FontAwesome 5 Free Solid\"></span> {}%"
+  },
+  "pulseaudio": {
+    "scroll-step": 1,
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{volume}% {icon}<span font=\"FontAwesome 5 Free Solid\"></span>",
+    "format-muted": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+    "format-icons": {
+      "headphones": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+      "handsfree": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+      "headset": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+      "phone": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+      "portable": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+      "car": "<span font=\"FontAwesome 5 Free Solid\"></span>",
+      "default": [
+        "<span font=\"FontAwesome 5 Free Solid\"></span>",
+        "<span font=\"FontAwesome 5 Free Solid\"></span>"
+      ]
+    },
+    "on-click": "pavucontrol"
+  },
+  "temperature": {
+    "hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input",
+    "critical-threshold": 82,
+    "format-critical": "{icon} {temperatureC}°C",
+    "format": " {icon} {temperatureC}°C",
+    "format-icons": [
+      "<span font=\"FontAwesome 5 Free Solid\">:</span>"
+    ]
+  },
+  "custom/playerctl": {
+    "tooltip": true,
+    "return-type": "json",
+    "format": "{icon}{}",
+    "format-icons": {
+      "playing": "<span font=\"FontAwesome 5 Free Solid\"></span> ",
+      "paused": "<span font=\"FontAwesome 5 Free Solid\"></span> "
+    },
+    "max-length": 40,
+    "align": 1,
+    "exec": "$HOME/.config/waybar/mediaplayer.py",
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-scroll-up": "playerctl position 10+",
+    "on-scroll-down": "playerctl position 10-"
+  },
+  "custom/arch_updates": {
+    "tooltip": true,
+    "return-type": "json",
+    "format": "{icon}{}",
+    "format-icons": {
+      "available": "<span font=\"FontAwesome 5 Free Solid\"></span> ",
+      "none": ""
+    },
+    "on-click": "footclient $HOME/.config/waybar/update.sh",
+    "exec": "$HOME/.config/waybar/arch_updates.sh",
+    "signal": 8
+  }
+}
+

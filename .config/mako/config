@@ -1,0 +1,35 @@
+background-color=#2B2928ED
+border-radius=10
+border-size=0
+default-timeout=5000
+font=Cantarell 12
+format=<span weight="bold" size="14000" rise="10000">%s</span>\n<span size="12000">%b</span>
+height=125
+icon-path=/usr/share/icons/Pop
+ignore-timeout=1
+layer=top
+padding=12
+progress-color=source #FFAD00
+sort=-time
+text-color=#e6e6e6
+width=500
+
+[app-name=volume-bar]
+anchor=bottom-center
+format=<span weight="bold" size="16000">%s</span>
+max-icon-size=32
+text-alignment=right
+
+[app-name=mute-indicator]
+anchor=bottom-center
+background-color=#FFB5B5
+format=<span weight="bold" size="16000">%s</span>
+max-icon-size=32
+text-alignment=left
+text-color=#2B2928
+
+[app-name=unmute-indicator]
+anchor=bottom-center
+format=<span weight="bold" size="16000">%s</span>
+max-icon-size=32
+text-alignment=left
