@@ -1,5 +1,5 @@
 function update
-  yay
+  paru 
   flatpak update
   flatpak uninstall --unused
   orphan
