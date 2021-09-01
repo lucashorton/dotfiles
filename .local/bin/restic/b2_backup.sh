@@ -10,7 +10,7 @@ restic unlock
 
 echo "Starting backup to B2"
 
-restic backup --exclude-file=$SCRIPT_DIR/exclude.txt --exclude-caches --files-from=$SCRIPT_DIR/include.txt
+restic backup --exclude-file=$HOME/.config/restic/exclude.txt --exclude-caches --files-from=$HOME/.config/restic/include.txt
 
 restic check
 
