@@ -7,5 +7,10 @@ killall -q playerctld
 while pgrep -x waybar >/dev/null; do sleep 1; done
 
 # Launch main
-waybar
+if [ -d /proc/acpi/battery/BAT* ]; then
+  waybar -c $HOME/.config/waybar/laptop
+else
+  waybar -c $HOME/.config/waybar/desktop
+fi
+
 playerctld daemon
