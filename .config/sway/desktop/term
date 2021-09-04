@@ -1,2 +1,2 @@
-exec foot --server
+exec foot --server -c $HOME/.config/foot/foot-desktop.ini
 bindsym $mod+Return exec footclient
