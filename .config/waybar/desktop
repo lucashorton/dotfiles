@@ -10,11 +10,11 @@
   ],
   "modules-right": [
     "custom/playerctl",
-    "network",
     "temperature",
     "cpu",
     "memory",
     "idle_inhibitor",
+    "network",
     "pulseaudio",
     "tray",
     "clock"
