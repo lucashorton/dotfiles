@@ -4,4 +4,4 @@
 
 include /etc/sway/config.d/*
 include ~/.config/sway/common/*
-include ~/.config/sway/desktop/*
+include ~/.config/sway/laptop/*

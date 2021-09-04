@@ -1,0 +1,2 @@
+exec foot --server -c $HOME/.config/foot/foot-laptop.ini
+bindsym $mod+Return exec footclient
