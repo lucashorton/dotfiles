@@ -4,7 +4,7 @@
 if [ $HOSTNAME = "pele" ]; then
   sway -c $HOME/.config/sway/laptop-config
 else
-  waybar
+  sway -c $HOME/.config/sway/desktop-config
 fi
 
 playerctld daemon

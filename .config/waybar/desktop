@@ -14,9 +14,9 @@
     "temperature",
     "cpu",
     "memory",
-    "tray",
     "idle_inhibitor",
     "pulseaudio",
+    "tray",
     "clock"
   ]
 }
