@@ -8,9 +8,9 @@ while pgrep -x waybar >/dev/null; do sleep 1; done
 
 # Launch main
 if [ $HOSTNAME = "pele" ]; then
-  waybar -c $HOME/.config/waybar/laptop
+  waybar -c $HOME/.config/waybar/laptop -s $HOME/.config/waybar/laptop.css
 else
-  waybar -c $HOME/.config/waybar/desktop
+  waybar -c $HOME/.config/waybar/desktop -s $HOME/.config/waybar/desktop.css
 fi
 
 playerctld daemon
