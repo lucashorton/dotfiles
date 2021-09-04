@@ -1,0 +1,5 @@
+exec light -I
+exec cat $HOME/.config/sway/state/keyboard > /sys/class/leds/tpacpi::kbd_backlight/brightness
+bindsym XF86MonBrightnessUp exec light -A 5 && light -O
+bindsym XF86MonBrightnessDown exec light -U 5 && light -O
+bindsym XF86Keyboard exec $HOME/.config/sway/scripts/keyboard_backlight.sh

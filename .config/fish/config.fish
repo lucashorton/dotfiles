@@ -3,7 +3,7 @@ starship init fish | source
 set EDITOR nvim
 
 if test -z $DISPLAY; and test (tty) = "/dev/tty1"
-    sway
+    $HOME/.config/sway/sway.sh
 end
 
 set -l xdg_data_home $XDG_DATA_HOME ~/.local/share

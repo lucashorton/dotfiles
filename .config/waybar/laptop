@@ -15,8 +15,8 @@
     "cpu",
     "memory",
     "idle_inhibitor",
-    "pulseaudio",
     "battery",
+    "pulseaudio",
     "tray",
     "clock"
   ]
