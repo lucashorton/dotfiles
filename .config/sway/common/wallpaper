@@ -1,2 +1,3 @@
 # Wallpaper
-output * bg /home/lucas/Pictures/wallhaven-lqze1q.jpg fill
+output "*" bg #000000 solid_color
+exec $HOME/.config/sway/scripts/wallpaper.sh
