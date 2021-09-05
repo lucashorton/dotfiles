@@ -116,3 +116,6 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+
+# Screenshots
+bindsym $mod+Shift+g exec grimshot screen

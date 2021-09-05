@@ -1,3 +1,0 @@
-# Start Waybar
-
-exec_always ~/.config/waybar/waybar.sh
