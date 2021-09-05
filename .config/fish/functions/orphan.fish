@@ -1,3 +1,3 @@
 function orphan
-  paru -Qtdq | paru -Rns -
+  yay -Qtdq | yay -Rns -
 end
