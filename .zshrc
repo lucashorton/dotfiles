@@ -41,9 +41,14 @@ function update() {
   orphan
 }
 
+function weather() {
+  curl wttr.in
+}
+
 # Aliases
-alias u="update"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias u="update"
+alias w="weather"
 
 # Print greeting
 greeting
