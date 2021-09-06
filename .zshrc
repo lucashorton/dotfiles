@@ -8,8 +8,22 @@ fi
 # Variables
 EDITOR=/usr/bin/nvim
 
+# History
+export HISTFILE=~/.histfile
+export HISTSIZE=1000000
+export SAVEHIST=1000000
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_SAVE_NO_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt INC_APPEND_HISTORY_TIME
+setopt EXTENDED_HISTORY
+
+# Fuzzy search
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+
 # ASDF
-. $HOME/.asdf/asdf.sh
+. /opt/asdf-vm/asdf.sh
 fpath=(${ASDF_DIR}/completions $fpath)
 
 # Completion
@@ -51,6 +65,7 @@ function weather() {
 
 # Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias history='fc -l 1'
 alias u="update"
 alias w="weather"
 
