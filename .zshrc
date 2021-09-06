@@ -8,6 +8,10 @@ fi
 # Variables
 EDITOR=/usr/bin/nvim
 
+# ASDF
+. $HOME/.asdf/asdf.sh
+fpath=(${ASDF_DIR}/completions $fpath)
+
 # Completion
 autoload -Uz compinit
 compinit
