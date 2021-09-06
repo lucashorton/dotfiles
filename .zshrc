@@ -45,6 +45,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 function greeting(){
   NAME=$(figlet $HOST)
   echo $fg[cyan]$NAME
+  echo "\n"
   inxi
 }
 
