@@ -51,12 +51,12 @@ function greeting(){
 
 function orphan() {
   yay -Qtdq | yay -Rns -
+  flatpak uninstall --unused
 }
 
 function update() {
   yay 
   flatpak update
-  flatpak uninstall --unused
   orphan
 }
 
@@ -66,9 +66,10 @@ function weather() {
 
 # Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias docker='podman'
 alias history='fc -l 1'
-alias u="update"
-alias w="weather"
+alias u='update'
+alias w='weather'
 
 # Print greeting
 greeting
