@@ -13,12 +13,23 @@
   #:use-module (gnu services admin)
   #:use-module (gnu packages bootloaders)
   #:use-module (gnu packages linux)
+  #:use-module (gnu packages freedesktop)
+  #:use-module (gnu packages wm) 
+  #:use-module (gnu packages gnome) 
+  #:use-module (gnu packages fonts) 
+  #:use-module (gnu packages xdisorg) 
+  #:use-module (gnu packages image) 
+  #:use-module (gnu packages video) 
   #:use-module (gnu packages certs)
+  #:use-module (gnu packages freedesktop)
   #:use-module (gnu packages cups)
   #:use-module (gnu packages emacs)
   #:use-module (gnu packages vim)
   #:use-module (gnu packages shells)
-  #:use-module (gnu packages version-control))
+  #:use-module (gnu packages terminals)
+  #:use-module (gnu packages curl)
+  #:use-module (gnu packages version-control)
+  #:use-module (gnu packages package-management))
 
 (define %my-desktop-services
   (modify-services %desktop-services
@@ -67,7 +78,27 @@
 		        git
 			emacs
 			neovim
+			wayland
+			bluez
+			flatpak
+                        xdg-desktop-portal-wlr
+                        foot
+			sway
+			swaylock
+			swayidle
+			swaybg
+			waybar
+			wofi
+			mako
+			grim
+			slurp
+			wf-recorder
 			nss-certs
+                        font-awesome
+                        font-fira-code
+                        gnome-themes-standard
+                        gnome-themes-extra
+                        adwaita-icon-theme
 			)
                        %base-packages))
 
