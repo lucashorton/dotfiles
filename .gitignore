@@ -1,0 +1,15 @@
+*.gpg
+*.tmp
+*.log
+.config/restic/include.txt
+.config/restic/exclude.txt
+.emacs.d/auto-save-list
+.local/bin/restic/set_env.sh
+.config/gtk-3.0/bookmarks
+.config/mpd/database
+.config/mpd/pid
+.config/mpd/playlists
+.config/mpd/state
+.config/mpd/sticker.sql
+.config/msmtp/config
+package-lock.json

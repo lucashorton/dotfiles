@@ -8,6 +8,9 @@ fi
 # Variables
 EDITOR=/usr/bin/nvim
 
+# Path
+export PATH=$HOME/.local/bin:$PATH
+
 # History
 export HISTFILE=~/.histfile
 export HISTSIZE=1000000
@@ -19,27 +22,17 @@ setopt INC_APPEND_HISTORY_TIME
 setopt EXTENDED_HISTORY
 
 # Fuzzy search
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # ASDF
 . /opt/asdf-vm/asdf.sh
-fpath=(${ASDF_DIR}/completions $fpath)
-
-# Completion
-autoload -Uz compinit
-compinit
-setopt COMPLETE_ALIASES
-zstyle ':completion::complete:*' gain-privileges 1
 
 # Colors
 autoload colors; colors
 
-# Syntax highlighting
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Autosuggestions
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Antigen
+source ~/.antigen.zsh
+antigen init ~/.antigenrc
 
 # Functions
 function greeting(){
@@ -64,7 +57,7 @@ function weather() {
 }
 
 # Aliases
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias docker='podman'
 alias history='fc -l 1'
 alias u='update'
@@ -73,5 +66,3 @@ alias w='weather'
 # Print greeting
 greeting
 
-# Prompt
-eval "$(starship init zsh)"
