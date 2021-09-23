@@ -57,7 +57,6 @@ function weather() {
 }
 
 # Aliases
-alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias docker='podman'
 alias history='fc -l 1'
 alias u='update'
