@@ -1,4 +1,3 @@
-source "gpg -dq $HOME/.config/mutt/mutt-credentials.gpg |"
 set editor=/usr/bin/nvim
 
 set realname=$my_name
@@ -6,21 +5,15 @@ set from=$my_from
 set use_from=yes
 set sendmail="/usr/bin/msmtp"
 
-set imap_user=$my_user
-set imap_pass=$my_pass
-set folder=$my_folder
-unset imap_passive
-set imap_keepalive=300
-set mail_check=60
-
-set header_cache="~/.cache/mutt"
-set message_cachedir="~/.cache/mutt"
-set spoolfile=+INBOX
+set mbox_type=Maildir
+set folder=~/.mail/fastmail
+set spoolfile=+Inbox
+set header_cache=~/.cache/mutt
 set record=+Sent
 set postponed=+Drafts
 set trash=+Trash
-save-hook . "+Archive"
-mailboxes = +INBOX +Sent +Drafts +Archive +Spam
+save-hook . +Archive
+mailboxes +Inbox +Archive +Sent +Drafts +Trash
 
 set text_flowed
 set sidebar_visible
