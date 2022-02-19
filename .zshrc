@@ -1,8 +1,15 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # ZSH Config
 
 # Launch sway if on TTY
 if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
-  exec $HOME/.config/sway/sway.sh 
+#   exec sway 
 fi
 
 # Variables
@@ -11,49 +18,38 @@ EDITOR=/usr/bin/nvim
 # Path
 export PATH=$HOME/.local/bin:$PATH
 
-# History
-export HISTFILE=~/.histfile
-export HISTSIZE=1000000
-export SAVEHIST=1000000
-setopt HIST_IGNORE_ALL_DUPS
-setopt HIST_SAVE_NO_DUPS
-setopt HIST_REDUCE_BLANKS
-setopt INC_APPEND_HISTORY_TIME
-setopt EXTENDED_HISTORY
+#ASDF
+. /opt/asdf-vm/asdf.sh
 
 # Fuzzy search
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# ASDF
-. /opt/asdf-vm/asdf.sh
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Colors
 autoload colors; colors
-
-# Antigen
-source ~/.antigen.zsh
-antigen init ~/.antigenrc
 
 # Functions
 function greeting(){
   NAME=$(figlet $HOST)
   echo $fg[green]$NAME
   inxi
+  echo ""
 }
 
 function orphan() {
   yay -Qtdq | yay -Rns -
-  flatpak uninstall --unused
 }
 
 function update() {
   yay 
-  flatpak update
   orphan
 }
 
 function weather() {
   curl wttr.in
+}
+
+function gogh() {
+  bash -c "$(wget -qO- https://git.io/vQgMr)"
 }
 
 # Aliases
@@ -65,3 +61,5 @@ alias w='weather'
 # Print greeting
 greeting
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

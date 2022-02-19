@@ -1,0 +1,78 @@
+* {
+  border: none;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+window#waybar {
+  background: #17191e;
+  border-bottom: none;
+  color: #8d8d8d;
+  padding: 2px;
+}
+
+.modules-right {
+}
+
+.modules-center {
+  font-weight: bold;
+}
+
+.modules-left {
+  margin: 2px 0 0 5px;
+}
+
+#workspaces button, #tags button {
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 3px 2px;
+  padding: 1px 5px;
+}
+
+#workspaces button:hover {
+  background-color: #20232a;
+  color: #8d8d8d;
+}
+
+#workspaces button.focused, #tags button.focused {
+  background-color: #9bbfbf;
+  color: #000000;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#custom-playerctl,
+#custom-arch_updates,
+#tray,
+#mode,
+#idle_inhibitor {
+  min-width: 30px;
+  padding: 0 8px;
+}
+
+#clock {
+  font-weight: bold;
+}
+
+#mode {
+  color: #ffad00;
+  font-weight: bold;
+}
+
+#window{
+  margin:0 0 0 12px;
+  font-weight:bold;
+}
+
+#idle_inhibitor.activated {
+  color: #989719;
+}
+
+#temperature.critical {
+  color: #cd3520;
+}

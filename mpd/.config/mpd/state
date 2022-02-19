@@ -1,0 +1,22 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: stop
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 01 Wondrous Love.flac
+1:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 02 Better Way.flac
+2:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 03 Belly of the Beast.flac
+3:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 04 New Star.flac
+4:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 05 Upside Down.flac
+5:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 06 Lonely Love Affair.flac
+6:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 07 Coming Down From Green Mountain.flac
+7:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 08 Beautiful Flowers.flac
+8:Watchhouse (formerly Mandolin Orange) - Watchhouse/Watchhouse (formerly Mandolin Orange) - Watchhouse - 09 Nightbird.flac
+playlist_end

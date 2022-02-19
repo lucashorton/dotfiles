@@ -1,0 +1,43 @@
+window {
+  background-color: #2b2928;
+  border-radius: 5px;
+  font-family: Cantarell;
+  font-size: 14pt;
+  margin: 0px;
+}
+
+#input {
+  background-color: #474341;
+  border-radius: 5px;
+  color: #e6e6e6;
+  font-size: 20pt;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+#inner-box {
+  margin: 5px;
+}
+
+#outer-box {
+  margin: 10px;
+}
+
+#scroll {
+  margin: 10px 0;
+}
+
+#text {
+  margin: 0px;
+}
+
+#entry {
+  border-radius: 5px;
+  color: #e6e6e6;
+  padding: 10px 20px;
+}
+
+#entry:selected {
+  background-color: #94ebeb;
+  color: #2b2928;
+}

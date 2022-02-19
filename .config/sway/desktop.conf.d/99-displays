@@ -1,3 +1,0 @@
-output HDMI-A-1 scale 1
-output HDMI-A-1 pos 0 0 res 3840x2160
-output HDMI-A-2 pos 3840 1080 res 1920x1080

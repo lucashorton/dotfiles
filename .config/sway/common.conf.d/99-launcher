@@ -1,4 +1,0 @@
-set $menu wofi -d --show drun -W 500
-
-# Start your launcher
-bindsym $mod+d exec $menu

@@ -13,12 +13,8 @@
 
 ;; Initialize package sources
 (require 'package)
-
-(use-package command-log-mode)
-
-(setq package-archives '(("melpa" . "https://melpa.org/packages/")
-			 ("org" . "https://orgmode.org/elpa/")
-			 ("elpa" . "https://elpa.gnu.org/packages/")))
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
 
 (require 'use-package)
 (setq use-package-always-ensure t)
@@ -49,7 +45,12 @@
   :custom ((doom-modeline-height 60)))
 
 (use-package doom-themes
-  :init (load-theme 'doom-palenight t))
+  :ensure t
+  :config
+  (setq doom-themes-enable-bold t
+        doom-themes-enable-italic t)
+  (load-theme 'doom-one t)
+  (doom-themes-org-config))
 
 (use-package all-the-icons)
 
@@ -111,6 +112,8 @@
 
   (evil-set-initial-state 'messages-buffer-mode 'normal)
   (evil-set-initial-state 'dashboard-mode 'normal))
+
+(use-package zig-mode)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

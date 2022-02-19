@@ -1,0 +1,15 @@
+[exit]
+background=#2B2928
+border-bottom=#2B2928
+border=#2b2928
+button-background=#FFAD00
+button-border-size=0
+button-dismiss-gap=16
+button-gap=16
+button-margin-right=16
+button-padding=8
+button-text=#2B2928
+dismiss-button=Cancel
+edge=bottom
+font=Cantarell Bold 12
+text=#E6E6E6

@@ -1,0 +1,22 @@
+IMAPAccount lucas
+Host mail.lucashorton.com 
+User lucas@lucashorton.com
+PassCmd "gpg2 -q --for-your-eyes-only --no-tty -d ~/.config/mbsync/mailpass.gpg"
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+IMAPStore lucas-remote
+Account lucas 
+
+MaildirStore lucas-local
+Path ~/.mail/lucas/
+Inbox ~/.mail/lucas/Inbox
+SubFolders Verbatim
+
+Channel lucas
+Far :lucas-remote:
+Near :lucas-local:
+Patterns *
+Create Both
+Expunge Both
+SyncState *

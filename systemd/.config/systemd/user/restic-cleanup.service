@@ -1,0 +1,9 @@
+[Unit]
+Description=Restic User Cleanup
+
+[Service]
+Type=simple
+Nice=19
+IOSchedulingClass=2
+IOSchedulingPriority=7
+ExecStart=/home/%u/.local/bin/restic/b2_cleanup.sh

@@ -1,0 +1,6 @@
+exec ulauncher --hide-window
+
+set $menu ulauncher-toggle 
+
+# Start your launcher
+bindsym $mod+d exec $menu

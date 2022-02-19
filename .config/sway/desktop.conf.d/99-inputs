@@ -1,4 +1,0 @@
-input "1241:840:DuckyChannel_International_Co.,_Ltd._Ducky_Keyboard" {
-  xkb_numlock enabled
-  xkb_options caps:ctrl_modifier
-}
