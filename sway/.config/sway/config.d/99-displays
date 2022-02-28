@@ -1,2 +1,12 @@
-output HDMI-A-2 scale 1
-output HDMI-A-2 pos 0 0 res 3840x2160
+set $monitor HDMI-A-1
+set $laptop eDP-1
+
+output $monitor scale 1
+output $monitor pos 0 0 res 3840x2160
+output $laptop scale 1
+output $laptop pos 3840 0 res 2256x1504
+workspace 1 output $monitor 
+workspace 2 output $laptop
+
+bindswitch --reload --locked lid:on output $laptop disable
+bindswitch --reload --locked lid:off output $laptop enable

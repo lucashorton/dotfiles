@@ -40,7 +40,8 @@ function orphan() {
 }
 
 function update() {
-  yay 
+  yay
+  flatpak update
   orphan
 }
 
@@ -57,6 +58,7 @@ alias docker='podman'
 alias history='fc -l 1'
 alias u='update'
 alias w='weather'
+alias start='$HOME/.config/sway/sway.sh'
 
 # Print greeting
 greeting
