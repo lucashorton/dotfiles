@@ -1,3 +1,5 @@
+exec kanshi
+exec $HOME/.config/waybar/waybar.sh
 exec flatpak run com.nextcloud.desktopclient.nextcloud --background
 exec udiskie --tray --appindicator
 exec streamdeck -n
