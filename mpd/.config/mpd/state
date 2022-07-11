@@ -2,26 +2,72 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 8
-time: 15.446000
-random: 0
-repeat: 0
+current: 12
+time: 131.989000
+random: 1
+repeat: 1
 single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Unamericana - Lossless Masters 24-48/01 Roses and Gloom.wav
-1:Unamericana - Lossless Masters 24-48/02 Have Mercy.wav
-2:Unamericana - Lossless Masters 24-48/03 Harbinger.wav
-3:Unamericana - Lossless Masters 24-48/04 Unamericana.wav
-4:Unamericana - Lossless Masters 24-48/05 Victory Bells.wav
-5:Unamericana - Lossless Masters 24-48/06 Blade Away.wav
-6:Unamericana - Lossless Masters 24-48/07 Jesus Horse Camp.wav
-7:Unamericana - Lossless Masters 24-48/08 Cherry Wine.wav
-8:Unamericana - Lossless Masters 24-48/09 Colorado Soldier.wav
-9:Unamericana - Lossless Masters 24-48/10 Low Country.wav
-10:Unamericana - Lossless Masters 24-48/11 I_m On Fire.wav
-11:Unamericana - Lossless Masters 24-48/12 Up To Me.wav
+0:Don Tiki/Hot Like Lava/01 All Quiet Flows The Don.flac
+1:Don Tiki/Hot Like Lava/02 Primitiva.flac
+2:Don Tiki/Hot Like Lava/03 Flower Humming.flac
+3:Don Tiki/Hot Like Lava/04 Hot Like Lava.flac
+4:Don Tiki/Hot Like Lava/05 El Producto.flac
+5:Don Tiki/Hot Like Lava/06 Maidenhair Fern.flac
+6:Don Tiki/Hot Like Lava/07 Bwana Banana.flac
+7:Don Tiki/Hot Like Lava/08 Tinfoil Hats.flac
+8:Don Tiki/Hot Like Lava/10 Itchy Palms.flac
+9:Don Tiki/Hot Like Lava/09 Barbi In Bali.flac
+10:Don Tiki/Hot Like Lava/11 Pussyfooting.flac
+11:Don Telling's Island Mysteries/Don Telling's Island Mysteries/01 Quiet Village.flac
+12:Don Telling's Island Mysteries/Don Telling's Island Mysteries/02 Sukiyaki.flac
+13:Don Telling's Island Mysteries/Don Telling's Island Mysteries/03 Miserlou.flac
+14:Don Telling's Island Mysteries/Don Telling's Island Mysteries/04 Stranger on the Shore.flac
+15:Don Telling's Island Mysteries/Don Telling's Island Mysteries/05 Golden Earrings.flac
+16:Don Telling's Island Mysteries/Don Telling's Island Mysteries/06 The Mysterons Theme.flac
+17:Don Telling's Island Mysteries/Don Telling's Island Mysteries/07 On Green Dolphin Street.flac
+18:Don Telling's Island Mysteries/Don Telling's Island Mysteries/08 The Ipcress File.flac
+19:Don Telling's Island Mysteries/Don Telling's Island Mysteries/09 Love is Blue.flac
+20:Eden Ahbez/Eden's Island/01 Eden's Island.flac
+21:Eden Ahbez/Eden's Island/02 The Wanderer.flac
+22:Eden Ahbez/Eden's Island/03 Myna Bird.flac
+23:Eden Ahbez/Eden's Island/04 Eden's Cove.flac
+24:Eden Ahbez/Eden's Island/05 Tradewind.flac
+25:Eden Ahbez/Eden's Island/06 Full Moon.flac
+26:Eden Ahbez/Eden's Island/07 Tobago (Bonus).flac
+27:Eden Ahbez/Eden's Island/08 Mongoose.flac
+28:Eden Ahbez/Eden's Island/09 Market Place.flac
+29:Eden Ahbez/Eden's Island/10 Banana Boy.flac
+30:Eden Ahbez/Eden's Island/11 The Old Boat.flac
+31:Eden Ahbez/Eden's Island/12 Island Girl.flac
+32:Eden Ahbez/Eden's Island/13 La Mar.flac
+33:Eden Ahbez/Eden's Island/14 Surf Rider (Bonus).flac
+34:Martin Denny/Exotica/01 Quiet Village.flac
+35:Martin Denny/Exotica/02 Return to Paradise.flac
+36:Martin Denny/Exotica/03 Hong Kong Blues.flac
+37:Martin Denny/Exotica/04 Busy Port.flac
+38:Martin Denny/Exotica/05 Lotus Land.flac
+39:Martin Denny/Exotica/06 Similau.flac
+40:Martin Denny/Exotica/07 Stone God.flac
+41:Martin Denny/Exotica/08 Jungle Flower.flac
+42:Martin Denny/Exotica/09 China Nights (Shina No Yoru).flac
+43:Martin Denny/Exotica/10 Ah Me Furi.flac
+44:Martin Denny/Exotica/11 Waipio.flac
+45:Martin Denny/Exotica/12 Love Dance.flac
+46:Kava Kon/Tiki for the Atomic Age/01 The Atomic Clock.flac
+47:Kava Kon/Tiki for the Atomic Age/02 Chinese Surfer.flac
+48:Kava Kon/Tiki for the Atomic Age/03 Cherry Rain.flac
+49:Kava Kon/Tiki for the Atomic Age/04 Turkish Honey.flac
+50:Kava Kon/Tiki for the Atomic Age/05 The Exotic Traveler.flac
+51:Kava Kon/Tiki for the Atomic Age/06 The Killing River (without the Sun, Moon, or Stars).flac
+52:Kava Kon/Tiki for the Atomic Age/07 Behind the Sun.flac
+53:Kava Kon/Tiki for the Atomic Age/08 Palace of the Tiger Women.flac
+54:Kava Kon/Tiki for the Atomic Age/09 Pacifica 66.flac
+55:Kava Kon/Tiki for the Atomic Age/10 Polynesia Poppies.flac
+56:Kava Kon/Tiki for the Atomic Age/11 Zero Gravity Lounge.flac
+57:Kava Kon/Tiki for the Atomic Age/12 Journey Home.flac
 playlist_end

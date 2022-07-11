@@ -1,8 +1,8 @@
-background-color=#17191EED
+background-color=#00000032
 border-radius=10
 border-size=0
 default-timeout=5000
-font=Cantarell 12
+font=Inter 12
 format=<span weight="bold" size="14000" rise="10000">%s</span>\n<span size="12000">%b</span>
 height=125
 icon-path=/usr/share/icons/Pop

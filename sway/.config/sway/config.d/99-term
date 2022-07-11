@@ -1,2 +1,2 @@
-exec foot --server
-bindsym $mod+Return exec footclient
+exec foot -s
+bindsym $mod+Return exec footclient 

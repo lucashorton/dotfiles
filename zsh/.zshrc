@@ -1,16 +1,12 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
+
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # ZSH Config
-
-# Launch sway if on TTY
-if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
-#   exec sway 
-fi
 
 # Variables
 EDITOR=/usr/bin/nvim
@@ -19,7 +15,7 @@ EDITOR=/usr/bin/nvim
 export PATH=$HOME/.local/bin:$PATH
 
 #ASDF
-. /opt/asdf-vm/asdf.sh
+. $HOME/.asdf/asdf.sh
 
 # Fuzzy search
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

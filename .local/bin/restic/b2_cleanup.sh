@@ -11,9 +11,7 @@ restic unlock
 
 echo "Starting B2 cleanup"
 
-restic forget --keep-daily 7 --keep-weekly 4 --keep-monthly 12 --keep-yearly 1
-
-restic prune
+restic forget --keep-daily 7 --keep-weekly 1 --keep-monthly 1 --keep-yearly 1 --prune
 
 exec $SCRIPT_DIR/unset_env.sh
 
