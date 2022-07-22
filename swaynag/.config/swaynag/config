@@ -1,15 +1,16 @@
 [exit]
-background=#2B2928
-border-bottom=#2B2928
-border=#2b2928
-button-background=#FFAD00
-button-border-size=0
-button-dismiss-gap=16
-button-gap=16
-button-margin-right=16
+background=#272822
+border-bottom=#272822
+border=#272822
+button-background=#75715E
+button-border-size=10
+button-dismiss-gap=0
+button-gap=4
+button-margin-right=8
 button-padding=8
-button-text=#2B2928
+button-text=#272822
+message-padding=20
 dismiss-button=Cancel
 edge=bottom
-font=Cantarell Bold 12
-text=#E6E6E6
+font=Inter 14
+text=#F8F8F2

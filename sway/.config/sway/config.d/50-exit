@@ -1,5 +1,6 @@
 # Exit sway (logs you out of your Wayland session)
 bindsym Mod4+shift+e exec swaynag \
+        -e top \
 	-t exit \
 	-m 'What do you want to do?' \
 	-b 'Shutdown' 'systemctl poweroff' \

@@ -1,7 +1,6 @@
 exec kanshi
-exec_always $HOME/.config/waybar/waybar.sh
-exec flatpak run com.nextcloud.desktopclient.nextcloud --background
-exec udiskie --tray --appindicator
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec kdeconnect-indicator
 exec mako
+exec_always $HOME/.config/waybar/waybar.sh
+exec sleep 3 && /usr/bin/nextcloud --background 
+exec udiskie -t
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1

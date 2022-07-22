@@ -1,12 +1,11 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 # ZSH Config
+
+# History
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt SHARE_HISTORY 
+setopt HIST_FIND_NO_DUPS
 
 # Variables
 EDITOR=/usr/bin/nvim
@@ -31,14 +30,9 @@ function greeting(){
   echo ""
 }
 
-function orphan() {
-  yay -Qtdq | yay -Rns -
-}
-
 function update() {
-  yay
+  sudo dnf update  
   flatpak update
-  orphan
 }
 
 function weather() {
@@ -55,9 +49,12 @@ alias history='fc -l 1'
 alias u='update'
 alias w='weather'
 alias start='$HOME/.config/sway/sway.sh'
+alias vi="nvim"
+alias vim="nvim"
 
 # Print greeting
 greeting
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# Starship
+
+eval "$(starship init zsh)"
