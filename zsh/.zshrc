@@ -53,7 +53,7 @@ alias vi="nvim"
 alias vim="nvim"
 
 # Print greeting
-greeting
+# greeting
 
 # Starship
 

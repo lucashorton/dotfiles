@@ -2,10 +2,11 @@
 titlebar_padding 10 5
 
 # Window borders
-default_border pixel 1 
+default_border pixel 0
 default_floating_border pixel 0 
-smart_gaps off
 gaps inner 10
+smart_gaps off
+hide_edge_borders smart
 
 for_window [class="Nextcloud"] floating enable, border normal
 for_window [app_id="qalculate-gtk"] floating enable, border normal
@@ -15,3 +16,4 @@ for_window [app_id="zoom" title="zoom"] floating enable, border normal
 for_window [app_id="zoom" title="Zoom Meeting"] floating disable, border normal
 for_window [app_id="zoom" title="Zoom - Free Account"] floating disable, border normal
 for_window [title="Lucas' Window"] floating enable, border normal
+for_window [shell=".*"] inhibit_idle fullscreen

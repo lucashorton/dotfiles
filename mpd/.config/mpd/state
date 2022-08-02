@@ -1,9 +1,10 @@
 sw_volume: 93
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: stop
-current: 3
-random: 0
+state: play
+current: 27
+time: 120.184000
+random: 1
 repeat: 1
 single: 0
 consume: 0
@@ -11,16 +12,62 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Tedeschi Trucks Band/I Am The Moon- I. Crescent/Tedeschi Trucks Band - I Am The Moon- I. Crescent - 01 Hear My Dear.flac
-1:Tedeschi Trucks Band/I Am The Moon- I. Crescent/Tedeschi Trucks Band - I Am The Moon- I. Crescent - 02 Fall In.flac
-2:Tedeschi Trucks Band/I Am The Moon- I. Crescent/Tedeschi Trucks Band - I Am The Moon- I. Crescent - 03 I Am The Moon.flac
-3:Tedeschi Trucks Band/I Am The Moon- I. Crescent/Tedeschi Trucks Band - I Am The Moon- I. Crescent - 04 Circles 'Round The Sun.flac
-4:Tedeschi Trucks Band/I Am The Moon- I. Crescent/Tedeschi Trucks Band - I Am The Moon- I. Crescent - 05 Pasaquan.flac
-5:Tedeschi Trucks Band/I Am The Moon- II. Ascension/Tedeschi Trucks Band - I Am The Moon- II. Ascension - 01 Playing With My Emotions.flac
-6:Tedeschi Trucks Band/I Am The Moon- II. Ascension/Tedeschi Trucks Band - I Am The Moon- II. Ascension - 02 Ain't That Something.flac
-7:Tedeschi Trucks Band/I Am The Moon- II. Ascension/Tedeschi Trucks Band - I Am The Moon- II. Ascension - 03 All The Love.flac
-8:Tedeschi Trucks Band/I Am The Moon- II. Ascension/Tedeschi Trucks Band - I Am The Moon- II. Ascension - 04 So Long Savior.flac
-9:Tedeschi Trucks Band/I Am The Moon- II. Ascension/Tedeschi Trucks Band - I Am The Moon- II. Ascension - 05 Rainy Day.flac
-10:Tedeschi Trucks Band/I Am The Moon- II. Ascension/Tedeschi Trucks Band - I Am The Moon- II. Ascension - 06 La Di Da.flac
-11:Tedeschi Trucks Band/I Am The Moon- II. Ascension/Tedeschi Trucks Band - I Am The Moon- II. Ascension - 07 Hold That Line.flac
+0:Don Telling's Island Mysteries/Don Telling's Island Mysteries/01 Quiet Village.flac
+1:Don Telling's Island Mysteries/Don Telling's Island Mysteries/02 Sukiyaki.flac
+2:Don Telling's Island Mysteries/Don Telling's Island Mysteries/03 Miserlou.flac
+3:Don Telling's Island Mysteries/Don Telling's Island Mysteries/04 Stranger on the Shore.flac
+4:Don Telling's Island Mysteries/Don Telling's Island Mysteries/05 Golden Earrings.flac
+5:Don Telling's Island Mysteries/Don Telling's Island Mysteries/06 The Mysterons Theme.flac
+6:Don Telling's Island Mysteries/Don Telling's Island Mysteries/07 On Green Dolphin Street.flac
+7:Don Telling's Island Mysteries/Don Telling's Island Mysteries/08 The Ipcress File.flac
+8:Don Telling's Island Mysteries/Don Telling's Island Mysteries/09 Love is Blue.flac
+9:Don Tiki/Hot Like Lava/01 All Quiet Flows The Don.flac
+10:Don Tiki/Hot Like Lava/02 Primitiva.flac
+11:Don Tiki/Hot Like Lava/03 Flower Humming.flac
+12:Don Tiki/Hot Like Lava/04 Hot Like Lava.flac
+13:Don Tiki/Hot Like Lava/05 El Producto.flac
+14:Don Tiki/Hot Like Lava/06 Maidenhair Fern.flac
+15:Don Tiki/Hot Like Lava/07 Bwana Banana.flac
+16:Don Tiki/Hot Like Lava/08 Tinfoil Hats.flac
+17:Don Tiki/Hot Like Lava/09 Barbi In Bali.flac
+18:Don Tiki/Hot Like Lava/10 Itchy Palms.flac
+19:Don Tiki/Hot Like Lava/11 Pussyfooting.flac
+20:Kava Kon/Tiki for the Atomic Age/01 The Atomic Clock.flac
+21:Kava Kon/Tiki for the Atomic Age/02 Chinese Surfer.flac
+22:Kava Kon/Tiki for the Atomic Age/03 Cherry Rain.flac
+23:Kava Kon/Tiki for the Atomic Age/04 Turkish Honey.flac
+24:Kava Kon/Tiki for the Atomic Age/05 The Exotic Traveler.flac
+25:Kava Kon/Tiki for the Atomic Age/06 The Killing River (without the Sun, Moon, or Stars).flac
+26:Kava Kon/Tiki for the Atomic Age/07 Behind the Sun.flac
+27:Kava Kon/Tiki for the Atomic Age/08 Palace of the Tiger Women.flac
+28:Kava Kon/Tiki for the Atomic Age/09 Pacifica 66.flac
+29:Kava Kon/Tiki for the Atomic Age/10 Polynesia Poppies.flac
+30:Kava Kon/Tiki for the Atomic Age/11 Zero Gravity Lounge.flac
+31:Kava Kon/Tiki for the Atomic Age/12 Journey Home.flac
+32:Eden Ahbez/Eden's Island/01 Eden's Island.flac
+33:Eden Ahbez/Eden's Island/02 The Wanderer.flac
+34:Eden Ahbez/Eden's Island/03 Myna Bird.flac
+35:Eden Ahbez/Eden's Island/04 Eden's Cove.flac
+36:Eden Ahbez/Eden's Island/05 Tradewind.flac
+37:Eden Ahbez/Eden's Island/06 Full Moon.flac
+38:Eden Ahbez/Eden's Island/07 Tobago (Bonus).flac
+39:Eden Ahbez/Eden's Island/08 Mongoose.flac
+40:Eden Ahbez/Eden's Island/09 Market Place.flac
+41:Eden Ahbez/Eden's Island/10 Banana Boy.flac
+42:Eden Ahbez/Eden's Island/11 The Old Boat.flac
+43:Eden Ahbez/Eden's Island/12 Island Girl.flac
+44:Eden Ahbez/Eden's Island/13 La Mar.flac
+45:Eden Ahbez/Eden's Island/14 Surf Rider (Bonus).flac
+46:Martin Denny/Exotica/01 Quiet Village.flac
+47:Martin Denny/Exotica/02 Return to Paradise.flac
+48:Martin Denny/Exotica/03 Hong Kong Blues.flac
+49:Martin Denny/Exotica/04 Busy Port.flac
+50:Martin Denny/Exotica/05 Lotus Land.flac
+51:Martin Denny/Exotica/06 Similau.flac
+52:Martin Denny/Exotica/07 Stone God.flac
+53:Martin Denny/Exotica/08 Jungle Flower.flac
+54:Martin Denny/Exotica/09 China Nights (Shina No Yoru).flac
+55:Martin Denny/Exotica/10 Ah Me Furi.flac
+56:Martin Denny/Exotica/11 Waipio.flac
+57:Martin Denny/Exotica/12 Love Dance.flac
 playlist_end

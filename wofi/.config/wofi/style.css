@@ -7,17 +7,17 @@ window {
 }
 
 #input {
-  background-color: rgba(255,255,255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
-  color: #f8f8f2;
+  color: #c0caf5;
   font-size: 20pt;
   margin: 5px 5px 10px 5px;
   padding: 10px 20px;
-  border: 1px solid #282822;
+  border: 1px solid #414868;
 }
 
 #input:focus {
-  border-color: #75715e;
+  border-color: #a9b1d6;
 }
 
 #inner-box {
@@ -37,19 +37,19 @@ window {
 
 #entry {
   border-radius: 5px;
-  color: #f8f8f2;
+  color: #c0caf5;
   padding: 10px 20px;
   margin: 0;
 }
 
 #entry:selected {
-  color: #272822;
-  background-color: #66d9ef;
-  border-color: #272822;
+  color: #414868;
+  background-color: #7dcfff;
+  border-color: #414868;
 }
 #text {
   padding-left: 8px;
 }
 #text:selected {
-  color: #272822;
+  color: #414868;
 }
