@@ -1,4 +1,7 @@
 # ZSH Config
+if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
+#  exec sway-run
+fi
 
 # History
 HISTFILE=~/.histfile
@@ -31,7 +34,7 @@ function greeting(){
 }
 
 function update() {
-  sudo dnf update  
+  yay 
   flatpak update
 }
 
@@ -44,6 +47,7 @@ function gogh() {
 }
 
 # Aliases
+alias orphan='yay -Rsn $(yay -Qtdq)'
 alias docker='podman'
 alias history='fc -l 1'
 alias u='update'
@@ -51,6 +55,7 @@ alias w='weather'
 alias start='$HOME/.config/sway/sway.sh'
 alias vi="nvim"
 alias vim="nvim"
+alias mutt="neomutt"
 
 # Print greeting
 # greeting

@@ -61,6 +61,8 @@ window#waybar {
 #mode,
 #mpd,
 #idle_inhibitor {
+  margin: 0 2px;
+  padding:0;
 }
 
 #clock {

@@ -1,5 +1,5 @@
 IMAPAccount lucas
-Host mail.lucashorton.com 
+Host monday.mxrouting.net 
 User lucas@lucashorton.com
 PassCmd "gpg2 -q --for-your-eyes-only --no-tty -d ~/.config/mbsync/mailpass.gpg"
 SSLType IMAPS
@@ -9,14 +9,20 @@ IMAPStore lucas-remote
 Account lucas 
 
 MaildirStore lucas-local
-Path ~/.mail/lucas/
-Inbox ~/.mail/lucas/Inbox
+Path ~/.mail/
+Inbox ~/.mail/Inbox
 SubFolders Verbatim
 
 Channel lucas
 Far :lucas-remote:
 Near :lucas-local:
-Patterns *
+Patterns * !INBOX/spam
 Create Both
 Expunge Both
 SyncState *
+
+Channel lucas-spam
+Far :lucas-remote:INBOX/spam
+Near :lucas-local:Spam
+Create Near
+Expunge Both

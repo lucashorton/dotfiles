@@ -1,6 +1,8 @@
 exec kanshi
 exec mako
 exec_always $HOME/.config/waybar/waybar.sh
-exec sleep 3 && /usr/bin/nextcloud --background 
+exec nm-applet --indicator
 exec udiskie -t
+exec sleep 3 && /usr/bin/nextcloud --background 
+exec fontbase
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1

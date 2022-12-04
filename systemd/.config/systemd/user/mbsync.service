@@ -5,4 +5,3 @@ Description=Mailbox synchronization service
 Type=oneshot
 ExecStart=/usr/bin/mbsync -Va -c /home/%u/.config/mbsync/mbsyncrc
 ExecStartPost=/usr/bin/notmuch new
-ExecStartPost=/usr/bin/mu index
