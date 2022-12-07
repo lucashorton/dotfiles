@@ -11,7 +11,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'pangloss/vim-javascript'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'joshdick/onedark.vim'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 call plug#end()
 
@@ -33,7 +33,7 @@ let g:ale_fixers = {
 let g:ale_fix_on_save = 1
 
 syntax on
-colorscheme onedark 
+colorscheme tokyonight 
 set termguicolors
 
 let g:airline_powerline_fonts = 1
