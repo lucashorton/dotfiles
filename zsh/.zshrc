@@ -34,7 +34,7 @@ function greeting(){
 }
 
 function update() {
-  yay 
+  sudo dnf update 
   flatpak update
 }
 
@@ -47,18 +47,16 @@ function gogh() {
 }
 
 # Aliases
-alias orphan='yay -Rsn $(yay -Qtdq)'
 alias docker='podman'
 alias history='fc -l 1'
 alias u='update'
 alias w='weather'
-alias start='$HOME/.config/sway/sway.sh'
 alias vi="nvim"
 alias vim="nvim"
 alias mutt="neomutt"
 
 # Print greeting
-# greeting
+greeting
 
 # Starship
 
