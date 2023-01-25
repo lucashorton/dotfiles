@@ -3,6 +3,8 @@ if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
 #  exec sway-run
 fi
 
+SSH_AUTH_SOCK=~/.1password/agent.sock
+
 # History
 HISTFILE=~/.histfile
 HISTSIZE=1000
