@@ -119,3 +119,6 @@ bindsym $mod+r mode "resize"
 
 # Screenshots
 bindsym $mod+Shift+g exec grimshot screen
+
+# Mail
+bindsym $mod+Shift+m exec flatpak run org.mozilla.Thunderbird

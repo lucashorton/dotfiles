@@ -1,5 +1,6 @@
 exec kanshi
 exec mako
 exec_always $HOME/.config/waybar/waybar.sh
-exec flatpak run org.cryptomator.Cryptomator
+exec 1password --silent
+exec insync start
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
