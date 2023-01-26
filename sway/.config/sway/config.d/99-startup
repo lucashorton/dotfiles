@@ -1,4 +1,4 @@
-exec kanshi
+exec_always kanshi
 exec mako
 exec_always $HOME/.config/waybar/waybar.sh
 exec 1password --silent
