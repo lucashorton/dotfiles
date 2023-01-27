@@ -27,7 +27,6 @@ set include=yes
 set mailcap_path=$HOME/.config/mutt/mailcap
 alternative_order text/plain text/enriched text/html
 auto_view text/html
-
 source ~/.config/mutt/macros
 source ~/.config/mutt/colors
 source ~/.config/mutt/bindings

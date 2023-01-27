@@ -18,6 +18,9 @@ EDITOR=/usr/bin/nvim
 # Path
 export PATH=$HOME/.local/bin:$PATH
 
+#GOPATH
+export GOPATH=$HOME/.opt/go
+
 #ASDF
 . $HOME/.asdf/asdf.sh
 
