@@ -10,5 +10,5 @@ host monday.mxrouting.net
 port 587
 from lucas@lucashorton.com
 user lucas@lucashorton.com
-passwordeval "gpg -quiet --for-your-eyes-only --no-tty --decrypt ~/.config/msmtp/mailpass.gpg"
+passwordeval "pass $(hostname)/EMAIL_PASSWORD"
 account default: lucashorton.com 

@@ -1,7 +1,7 @@
 IMAPAccount lucas
 Host monday.mxrouting.net 
 User lucas@lucashorton.com
-PassCmd "gpg2 -q --for-your-eyes-only --no-tty -d ~/.config/mbsync/mailpass.gpg"
+PassCmd "pass $(hostname)/EMAIL_PASSWORD"
 SSLType IMAPS
 CertificateFile /etc/ssl/certs/ca-certificates.crt
 
