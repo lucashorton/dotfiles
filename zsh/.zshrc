@@ -22,7 +22,7 @@ export PATH=$HOME/.local/bin:$PATH
 . $HOME/.asdf/asdf.sh
 
 # Fuzzy search
-#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Colors
 autoload colors; colors
