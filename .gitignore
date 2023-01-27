@@ -7,11 +7,12 @@
 .emacs.d/elpa
 .local/bin/restic/set_env.sh
 .config/gtk-3.0/bookmarks
-.config/mpd/database
-.config/mpd/pid
-.config/mpd/playlists
-.config/mpd/state
-.config/mpd/sticker.sql
-.config/msmtp/config
+mpd/.config/mpd/database
+mpd/.config/mpd/pid
+mpd/.config/mpd/playlists
+mpd/.config/mpd/state
+mpd/.config/mpd/sticker.sql
+msmtp/.config/msmtp/config
+mpd/.config/mpd/state
 package-lock.json
 
