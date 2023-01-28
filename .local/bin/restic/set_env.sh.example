@@ -1,6 +1,0 @@
-#!/bin/sh
-
-export B2_ACCOUNT_ID='abcde'
-export B2_ACCOUNT_KEY='12345'
-export RESTIC_PASSWORD='abc123'
-export RESTIC_REPOSITORY='b2:my-repo'
