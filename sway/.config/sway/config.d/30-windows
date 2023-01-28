@@ -1,0 +1,20 @@
+# Titlebars
+titlebar_padding 10 5
+
+# Window borders
+default_border pixel 0
+default_floating_border pixel 0 
+gaps inner 10
+smart_gaps off
+hide_edge_borders smart
+
+for_window [app_id="zoom"] floating enable, border normal
+for_window [app_id="zoom" title="Choose ONE of the audio conference options"] floating enable, border normal
+for_window [app_id="zoom" title="zoom"] floating enable, border normal
+for_window [app_id="zoom" title="Zoom Meeting"] floating disable, border normal
+for_window [app_id="zoom" title="Zoom - Free Account"] floating disable, border normal
+for_window [shell=".*"] inhibit_idle fullscreen
+for_window [title="^Cryptomator$"] {
+  floating enable, border normal 
+  move scratchpad
+}

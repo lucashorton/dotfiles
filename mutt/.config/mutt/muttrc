@@ -1,0 +1,32 @@
+set editor="nvim +':set textwidth=0' +':set wrapmargin=0' +':set wrap'"
+
+set realname="Lucas Horton"
+set from="lucas@lucashorton.com"
+set use_from=yes
+set sendmail="/usr/bin/msmtp"
+
+set mbox_type=Maildir
+set folder=~/.mail
+set spoolfile=+Inbox
+set header_cache=~/.cache/mutt
+set record=+Sent
+set postponed=+Drafts
+set trash=+Trash
+save-hook . +Archive
+mailboxes +Inbox +Archive +Sent +Trash +Drafts +Spam
+
+set text_flowed
+set sidebar_visible
+set sidebar_format = "%B%* %?N?%N?"
+set mail_check_stats
+set sort=threads
+set sort_aux=last-date-received
+set sleep_time = 0
+set fast_reply=yes
+set include=yes
+set mailcap_path=$HOME/.config/mutt/mailcap
+alternative_order text/plain text/enriched text/html
+auto_view text/html
+source ~/.config/mutt/macros
+source ~/.config/mutt/colors
+source ~/.config/mutt/bindings

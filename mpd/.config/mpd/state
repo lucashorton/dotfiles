@@ -1,0 +1,38 @@
+sw_volume: 88
+audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:my_fifo
+state: play
+current: 14
+time: 119.808000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Parcels/Day-Night/Parcels - Day-Night - 01 Light.flac
+1:Parcels/Day-Night/Parcels - Day-Night - 02 Free.flac
+2:Parcels/Day-Night/Parcels - Day-Night - 03 Comingback.flac
+3:Parcels/Day-Night/Parcels - Day-Night - 04 Theworstthing.flac
+4:Parcels/Day-Night/Parcels - Day-Night - 05 Inthecity (Interlude).flac
+5:Parcels/Day-Night/Parcels - Day-Night - 06 NowIcaresomemore.flac
+6:Parcels/Day-Night/Parcels - Day-Night - 07 Somethinggreater.flac
+7:Parcels/Day-Night/Parcels - Day-Night - 08 Daywalk.flac
+8:Parcels/Day-Night/Parcels - Day-Night - 09 Outside.flac
+9:Parcels/Day-Night/Parcels - Day-Night - 10 Shadow.flac
+10:Parcels/Day-Night/Parcels - Day-Night - 11 Neverloved.flac
+11:Parcels/Day-Night/Parcels - Day-Night - 12 Famous.flac
+12:Parcels/Day-Night/Parcels - Day-Night - 13 Icallthishome.flac
+13:Parcels/Day-Night/Parcels - Day-Night - 14 LordHenry.flac
+14:Parcels/Day-Night/Parcels - Day-Night - 15 Thefear.flac
+15:Parcels/Day-Night/Parcels - Day-Night - 16 Nightwalk.flac
+16:Parcels/Day-Night/Parcels - Day-Night - 17 Reflex.flac
+17:Parcels/Day-Night/Parcels - Day-Night - 18 Once.flac
+18:Parcels/Day-Night/Parcels - Day-Night - 19 Inside.flac
+19:Parcels/Day-Night/Parcels - Day-Night - 20 Free (Single Version).flac
+20:Parcels/Day-Night/Parcels - Day-Night - 21 Comingback (Single Version).flac
+21:Parcels/Day-Night/Parcels - Day-Night - 22 Somethinggreater (Single Version).flac
+22:Parcels/Day-Night/Parcels - Day-Night - 23 Famous (Single Version).flac
+playlist_end

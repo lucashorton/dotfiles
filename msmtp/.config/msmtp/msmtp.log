@@ -1,0 +1,6 @@
+Jan 26 22:18:06 host=monday.mxrouting.net tls=on auth=on user=lucas@lucashorton.com from=lucas@lucashorton.com recipients=lucas@lucashorton.com mailsize=157 smtpstatus=250 smtpmsg='250 OK id=1pLGBi-00FR3U-2K' exitcode=EX_OK
+Jan 27 11:22:01 host=monday.mxrouting.net tls=on auth=on user=lucas@lucashorton.com from=lucas@lucashorton.com recipients=lucas@lucashorton.com mailsize=297 smtpstatus=250 smtpmsg='250 OK id=1pLSQL-004CeQ-1t' exitcode=EX_OK
+Jan 27 11:30:49 host=monday.mxrouting.net tls=on auth=on user=lucas@lucashorton.com from=lucas@lucashorton.com recipients=lucas@lucashorton.com mailsize=303 smtpstatus=250 smtpmsg='250 OK id=1pLSYr-004Fqk-1t' exitcode=EX_OK
+Jan 27 11:37:45 host=monday.mxrouting.net tls=on auth=on user=lucas@lucashorton.com from=lucas@lucashorton.com recipients=lucas@lucashorton.com mailsize=296 smtpstatus=250 smtpmsg='250 OK id=1pLSfZ-004R2M-1H' exitcode=EX_OK
+Jan 27 12:11:32 host=monday.mxrouting.net tls=on auth=on user=lucas@lucashorton.com from=lucas@lucashorton.com recipients=lucas@lucashorton.com mailsize=296 smtpstatus=250 smtpmsg='250 OK id=1pLTCG-004rEn-1J' exitcode=EX_OK
+Jan 27 13:22:49 host=monday.mxrouting.net tls=on auth=on user=lucas@lucashorton.com from=lucas@lucashorton.com recipients=support@frame.work mailsize=3783 smtpstatus=250 smtpmsg='250 OK id=1pLUJF-005tbc-1O' exitcode=EX_OK

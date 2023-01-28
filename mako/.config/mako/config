@@ -1,0 +1,36 @@
+#background-color=#1A1B26FF
+background-color=#000000
+border-radius=10
+border-size=0
+default-timeout=5000
+font=Inter 12
+format=<span weight="bold" size="14000" rise="10000">%s</span>\n<span size="12000">%b</span>
+height=125
+icon-path=/usr/share/icons/Adwaita
+ignore-timeout=1
+layer=top
+padding=12
+progress-color=source #787c99
+sort=-time
+text-color=#C0CAF5
+width=500
+
+[app-name=volume-bar]
+anchor=bottom-center
+max-icon-size=32
+format=<span weight="bold" size="16000">%s</span>
+text-alignment=right
+
+[app-name=mute-indicator]
+anchor=bottom-center
+background-color=#F7768E
+format=<span weight="bold" size="16000">%s</span>
+max-icon-size=32
+text-alignment=left
+text-color=#000000
+
+[app-name=unmute-indicator]
+anchor=bottom-center
+format=<span weight="bold" size="16000">%s</span>
+max-icon-size=32
+text-alignment=left

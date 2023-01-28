@@ -1,0 +1,16 @@
+[exit]
+background=#1A1B26
+border-bottom=#1A1B26
+border=#1A1B26
+button-background=#A9B1D6
+button-border-size=10
+button-dismiss-gap=0
+button-gap=4
+button-margin-right=8
+button-padding=8
+button-text=#1A1B26
+message-padding=20
+dismiss-button=Cancel
+edge=bottom
+font=Inter 14
+text=#C0CAF5

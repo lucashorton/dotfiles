@@ -1,0 +1,28 @@
+IMAPAccount lucas
+Host monday.mxrouting.net 
+User lucas@lucashorton.com
+PassCmd "pass $(hostname)/EMAIL_PASSWORD"
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+IMAPStore lucas-remote
+Account lucas 
+
+MaildirStore lucas-local
+Path ~/.mail/
+Inbox ~/.mail/Inbox
+SubFolders Verbatim
+
+Channel lucas
+Far :lucas-remote:
+Near :lucas-local:
+Patterns * !INBOX/spam
+Create Both
+Expunge Both
+SyncState *
+
+Channel lucas-spam
+Far :lucas-remote:INBOX/spam
+Near :lucas-local:Spam
+Create Near
+Expunge Both

@@ -1,0 +1,14 @@
+defaults
+auth on
+tls on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+logfile ~/.config/msmtp/msmtp.log
+
+# Account 
+account accountname 
+host smtp.emailserver.net
+port 587
+from me@email.com
+user me@email.com 
+passwordeval "gpg -quiet --for-your-eyes-only --no-tty --decrypt ~/.config/msmtp/msmtp-credentials.gpg"
+account default: accountname 

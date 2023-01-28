@@ -1,0 +1,13 @@
+# Save all attachments
+macro pager S "<pipe-message> ripmime -i - -d ~/Downloads && rm ~/Downloads/textfile*" "Save all non-text attachments using ripmime"
+
+# List URLs
+macro pager \cb <pipe-entry>'urlscan'<enter> 'Follow links with urlview'
+
+# Mark all as read
+macro index A "<tag-pattern>~N<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>" "mark all new as read"
+
+# Abook
+set query_command= "abook --mutt-query '%s'"
+macro index,pager  a "<pipe-message>abook --add-email-quiet<return>" "Add this sender to Abook"
+bind editor        <Tab> complete-query
