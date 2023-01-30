@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE pam_mount SYSTEM "pam_mount.conf.xml.dtd">
+<!--
+	See pam_mount.conf(5) for a description.
+-->
+
+<pam_mount>
+
+		<!-- debug should come before everything else,
+		since this file is still processed in a single pass
+		from top-to-bottom -->
+
+<debug enable="0" />
+
+		<!-- Volume definitions -->
+<volume user="lucas" fstype="crypt" path="/dev/disk/by-uuid/f653620d-ef01-48a4-808d-e49d2b60eca9" mountpoint="~/Pictures" options="crypto_name=cryptmedia,defaults,noatime,compress,allow_discard,subvol=@Pictures" />
+<volume user="lucas" fstype="btrfs" path="/dev/mapper/cryptmedia" mountpoint="~/Videos" options="defaults,noatime,compress,allow_discard,subvol=@Movies" />
+<volume user="lucas" fstype="btrfs" path="/dev/mapper/cryptmedia" mountpoint="~/Music" options="defaults,noatime,compress,allow_discard,subvol=@Music" />
+<volume user="lucas" fstype="crypt" path="/dev/disk/by-uuid/90a0297c-6115-419b-9fb2-59d36d8fd76d" mountpoint="~/Documents" options="crypto_name=cryptdata,defaults,noatime,compress,allow_discard,subvol=@Documents" />
+<volume user="lucas" fstype="btrfs" path="/dev/mapper/cryptdata" mountpoint="~/Archive" options="defaults,noatime,compress,allow_discard,subvol=@Archive" />
+<!-- pam_mount parameters: General tunables -->
+
+<!--
+<luserconf name=".pam_mount.conf.xml" />
+-->
+
+<!-- Note that commenting out mntoptions will give you the defaults.
+     You will need to explicitly initialize it with the empty string
+     to reset the defaults to nothing. -->
+<mntoptions allow="nosuid,nodev,loop,encryption,fsck,nonempty,allow_root,allow_other" />
+<!--
+<mntoptions deny="suid,dev" />
+<mntoptions allow="*" />
+<mntoptions deny="*" />
+-->
+<mntoptions require="nosuid,nodev" />
+
+<!-- requires ofl from hxtools to be present -->
+<logout wait="0" hup="no" term="no" kill="no" />
+
+
+		<!-- pam_mount parameters: Volume-related -->
+
+<mkmountpoint enable="1" remove="true" />
+
+
+</pam_mount>

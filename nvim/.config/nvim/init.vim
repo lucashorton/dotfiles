@@ -10,6 +10,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-airline/vim-airline'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -19,25 +20,13 @@ call plug#end()
 set number
 set noshowmode
 
-let g:ale_fixers = {
-\   'javascript': ['prettier'],
-\   'vue': ['prettier'],
-\   'css': ['prettier'],
-\   'html': ['prettier'],
-\   'less': ['prettier'],
-\   'scss': ['prettier'],
-\   'json': ['prettier'],
-\   'markdown': ['prettier'],
-\   'yaml': ['prettier']
-\}
-
-let g:ale_fix_on_save = 1
-
 syntax on
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
 let g:airline#extensions#tabline#enabled = 1
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
 
 set termguicolors
 

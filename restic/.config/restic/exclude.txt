@@ -1,0 +1,10 @@
+.config/spotify
+/mnt/data/Dropbox
+/mnt/data/Epic\ Games
+BraveSoftware
+Cache
+node_modules
+Virtual\ Machines
+*cache*
+.cargo
+.var/app

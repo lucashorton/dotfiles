@@ -1,7 +1,7 @@
 IMAPAccount lucas
 Host monday.mxrouting.net 
 User lucas@lucashorton.com
-PassCmd "pass $(hostname)/EMAIL_PASSWORD"
+PassCmd "pass $(hostnamectl hostname)/EMAIL_PASSWORD"
 SSLType IMAPS
 CertificateFile /etc/ssl/certs/ca-certificates.crt
 
