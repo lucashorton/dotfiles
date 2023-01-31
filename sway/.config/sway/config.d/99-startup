@@ -1,8 +1,7 @@
-exec_always python $HOME/.config/sway/scripts/inactive-windows-transparency.py
+exec $HOME/.config/sway/scripts/inactive-windows-transparency.py
 exec_always kanshi
 exec mako
 exec_always $HOME/.config/waybar/waybar.sh
 exec udiskie -t
-exec 1password --silent
-exec insync start
+exec bitwarden-desktop 
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 

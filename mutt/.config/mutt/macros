@@ -11,3 +11,7 @@ macro index A "<tag-pattern>~N<enter><tag-prefix><clear-flag>N<untag-pattern>.<e
 set query_command= "abook --mutt-query '%s'"
 macro index,pager  a "<pipe-message>abook --add-email-quiet<return>" "Add this sender to Abook"
 bind editor        <Tab> complete-query
+
+macro index S "<shell-escape>mbsync -V lucas<enter><shell-escape>notmuch new<enter>" "sync email" 
+
+macro index \Cf "<enter-command>unset wait_key<enter><shell-escape>read -p 'Enter a search term to find with notmuch: ' x; echo \$x >~/.cache/mutt_terms<enter><limit>~i \"\`notmuch search --output=messages \$(cat ~/.cache/mutt_terms) | head -n 600 | perl -le '@a=<>;s/\^id:// for@a;$,=\"|\";print@a' | perl -le '@a=<>; chomp@a; s/\\+/\\\\+/ for@a;print@a' \`\"<enter>" "show only messages matching a notmuch pattern"
