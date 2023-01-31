@@ -1,0 +1,9 @@
+[Unit]
+Description=Mailbox IDLE service
+After=network.target
+
+[Service]
+ExecStart=goimapnotify -conf .config/imapnotify/config.json
+
+[Install]
+WantedBy=default.target
