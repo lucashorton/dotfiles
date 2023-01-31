@@ -1,9 +1,6 @@
 # ZSH Config
-if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
-#  exec sway-run
-fi
 
-SSH_AUTH_SOCK=~/.1password/agent.sock
+export $(envsubst < .env)
 
 # History
 HISTFILE=~/.histfile
@@ -12,14 +9,8 @@ SAVEHIST=1000
 setopt SHARE_HISTORY 
 setopt HIST_FIND_NO_DUPS
 
-# Variables
-EDITOR=/usr/bin/nvim
-
 # Path
 export PATH=$HOME/.local/bin:$PATH
-
-#GOPATH
-export GOPATH=$HOME/.opt/go
 
 #ASDF
 . $HOME/.asdf/asdf.sh
