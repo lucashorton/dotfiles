@@ -10,22 +10,16 @@ window#waybar {
   color: #c0caf5;
 }
 
-.modules-right {
-  padding: 0 20px;
-  border-radius: 100px;
-  background: rgba(26, 27, 38, 0.95);
-}
-
-.modules-center {
-  padding: 0 20px;
-  border-radius: 100px;
-  background: rgba(26, 27, 38, 0.95);
-}
-
+.modules-right,
+.modules-center,
 .modules-left {
-  background: rgba(26, 27, 38, 0.95);
-  border-radius: 100px;
   padding: 0 20px;
+  border-radius: 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(47, 48, 60, 0.95),
+    rgba(26, 27, 38, 0.95)
+  );
 }
 
 #workspaces button,
@@ -46,8 +40,8 @@ window#waybar {
 #workspaces button.focused,
 #tags button.focused,
 #workspaces button.focused:hover {
-  background-color: #7dcfff;
-  color: #414868;
+  background: linear-gradient(180deg, #70bae5, #97d8ff);
+  color: #2f303c;
 }
 
 #workspaces button.urgent {

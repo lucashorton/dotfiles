@@ -39,7 +39,7 @@ function greeting(){
 }
 
 function update() {
-  sudo dnf update 
+  yay
   flatpak update
 }
 
