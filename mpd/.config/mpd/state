@@ -1,10 +1,10 @@
-sw_volume: 36
+sw_volume: 38
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:my_fifo
 state: play
-current: 6
-time: 119.830000
-random: 0
+current: 11
+time: 120.081000
+random: 1
 repeat: 1
 single: 0
 consume: 0
@@ -12,19 +12,19 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:The Surfrajettes/El Condor Pasa - Single/The Surfrajettes - El Condor Pasa - Single - 01 El Condor Pasa.flac
-1:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 01 Intro.flac
-2:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 02 Warm Up.flac
-3:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 03 Roxy Roller.flac
-4:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 04 Couch Surfing.flac
-5:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 05 Salty Sister.flac
-6:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 06 Surfer's Slide.flac
-7:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 07 Slush Puppy.flac
-8:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 08 Train Kept A-Rollin'.flac
-9:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 09 Heart of Glass.flac
-10:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 10 Roller Fink.flac
-11:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 11 She Loves You.flac
-12:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 12 Priscilla.flac
-13:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 13 Snowball Intro.flac
-14:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 14 Snowball.flac
+0:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 01 Intro.flac
+1:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 02 Warm Up.flac
+2:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 03 Roxy Roller.flac
+3:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 04 Couch Surfing.flac
+4:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 05 Salty Sister.flac
+5:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 06 Surfer's Slide.flac
+6:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 07 Slush Puppy.flac
+7:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 08 Train Kept A-Rollin'.flac
+8:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 09 Heart of Glass.flac
+9:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 10 Roller Fink.flac
+10:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 11 She Loves You.flac
+11:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 12 Priscilla.flac
+12:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 13 Snowball Intro.flac
+13:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 14 Snowball.flac
+14:The Surfrajettes/El Condor Pasa - Single/The Surfrajettes - El Condor Pasa - Single - 01 El Condor Pasa.flac
 playlist_end

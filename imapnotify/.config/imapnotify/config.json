@@ -1,0 +1,15 @@
+{
+  "host": "monday.mxrouting.net",
+  "port": 993,
+  "tls": true,
+  "tlsOptions": {
+    "rejectUnauthorized": true
+  },
+  "username": "lucas@lucashorton.com",
+  "passwordCmd": "pass $(hostnamectl hostname)/EMAIL_PASSWORD | head -n 1",
+  "xoauth2": false,
+  "onNewMail": "mbsync -Va lucas",
+  "onNewMailPost": "/home/lucas/.config/imapnotify/onNewMailPost.sh",
+  "wait": 0,
+  "boxes": ["INBOX"]
+}

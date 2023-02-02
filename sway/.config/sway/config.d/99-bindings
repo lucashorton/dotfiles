@@ -87,9 +87,9 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 # Multimedia keys
-bindsym XF86AudioRaiseVolume exec pamixer -ui 1 && exec $HOME/.config/sway/scripts/volume_bar.sh 
-bindsym XF86AudioLowerVolume exec pamixer -ud 1 && $HOME/.config/sway/scripts/volume_bar.sh 
-bindsym XF86AudioMute exec pamixer --toggle-mute && $HOME/.config/sway/scripts/mute_toggle.sh 
+bindsym XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+
+bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-
+bindsym XF86AudioMute exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle 
 bindsym XF86Calculator exec footclient calc 
 
 # Toggle screen
