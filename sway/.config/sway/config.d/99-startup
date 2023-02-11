@@ -3,5 +3,5 @@ exec_always kanshi
 exec mako
 exec_always $HOME/.config/waybar/waybar.sh
 exec udiskie -t
-exec bitwarden-desktop 
+exec flatpak run com.bitwarden.desktop 
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 

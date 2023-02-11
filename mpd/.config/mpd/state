@@ -1,9 +1,9 @@
-sw_volume: 38
+sw_volume: 80
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:my_fifo
-state: play
-current: 11
-time: 120.081000
+state: pause
+current: 9
+time: 49.501000
 random: 1
 repeat: 1
 single: 0
@@ -12,19 +12,17 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 01 Intro.flac
-1:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 02 Warm Up.flac
-2:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 03 Roxy Roller.flac
-3:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 04 Couch Surfing.flac
-4:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 05 Salty Sister.flac
-5:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 06 Surfer's Slide.flac
-6:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 07 Slush Puppy.flac
-7:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 08 Train Kept A-Rollin'.flac
-8:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 09 Heart of Glass.flac
-9:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 10 Roller Fink.flac
-10:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 11 She Loves You.flac
-11:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 12 Priscilla.flac
-12:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 13 Snowball Intro.flac
-13:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 14 Snowball.flac
-14:The Surfrajettes/El Condor Pasa - Single/The Surfrajettes - El Condor Pasa - Single - 01 El Condor Pasa.flac
+0:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 01 Press Rewind (ft. Collie Buddz and J Boog).flac
+1:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 02 It's Funny (ft. Eli Mac and Common Kings).flac
+2:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 03 The Day You Came (ft. Rebelution and UB40 ft. Ali Campbell).flac
+3:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 04 Break It Down.flac
+4:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 05 Something To Believe In (ft. Stick Figure).flac
+5:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 06 Things You Can't Control.flac
+6:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 07 Back To The Start (ft. Mihali).flac
+7:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 08 Jump (ft. Slightly Stoopid).flac
+8:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 09 Still You.flac
+9:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 10 Messages.flac
+10:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 11 Reason To Live (ft. Nanpa Basico and Dirty Heads).flac
+11:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 12 This Heart of Mine (ft. Eric Swanson).flac
+12:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 13 Fall Like Rain.flac
 playlist_end

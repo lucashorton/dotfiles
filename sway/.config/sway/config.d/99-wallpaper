@@ -1,3 +1,2 @@
 # Wallpaper
-output "*" bg #000000 solid_color
-exec $HOME/.azotebg
+output "*" bg /home/lucas/.dotfiles/wallpaper/wallhaven-kwx37q.jpg fill

@@ -13,13 +13,25 @@ window#waybar {
 .modules-right,
 .modules-center,
 .modules-left {
-  padding: 0 20px;
-  border-radius: 100px;
+  border-radius: 10px 0 0 10px;
   background: linear-gradient(
     180deg,
     rgba(47, 48, 60, 0.95),
     rgba(26, 27, 38, 0.95)
   );
+  padding: 0 10px;
+}
+
+.modules-right {
+  border-radius: 0 0 0 10px;
+}
+
+.modules-center {
+  border-radius: 0 0 10px 10px;
+}
+
+.modules-left {
+  border-radius: 0 0 10px 0;
 }
 
 #workspaces button,

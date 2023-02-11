@@ -4,8 +4,8 @@ set $light-gray #a9b1d6
 set $medium-gray #403d3d
 set $red #f7768e
 
-# class                     border  		backgr. 	text    	indicator child_border
-client.focused 		    $dark-gray 		$dark-gray      $light-gray	$dark-gray
-client.focused_inactive     $medium-gray	$medium-gray	$light-gray 	$medium-gray
-client.unfocused	    $medium-gray	$medium-gray	$light-gray 	$medium-gray
-client.urgent 		    $red 		$red 		$light-gray 	$red
+# class                     border  		  backgr. 	    text    	    indicator     child_border
+client.focused 		    			$dark-gray    $dark-gray    $light-gray	  $dark-gray    $dark-gray
+client.focused_inactive     $medium-gray	$dark-gray	  $light-gray 	$medium-gray  $medium-gray
+client.unfocused	          $medium-gray	$medium-gray	$light-gray 	$medium-gray  $medium-gray
+client.urgent 		          $red 		      $red 		      $light-gray 	$red          $red

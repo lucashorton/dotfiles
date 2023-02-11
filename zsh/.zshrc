@@ -2,6 +2,9 @@
 
 export $(envsubst < .env)
 
+# Emacs style keybindings
+bindkey -e
+
 # History
 HISTFILE=~/.histfile
 HISTSIZE=1000
