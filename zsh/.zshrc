@@ -53,6 +53,7 @@ alias w='weather'
 alias vi="nvim"
 alias vim="nvim"
 alias mutt="neomutt"
+alias orphan="yay -Qtdq | yay -Rns -"
 
 # Print greeting
 greeting
