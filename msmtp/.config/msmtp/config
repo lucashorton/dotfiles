@@ -6,7 +6,7 @@ logfile ~/.config/msmtp/msmtp.log
 
 # Fastmail
 account lucashorton.com 
-host monday.mxrouting.net 
+host smtp.fastmail.com 
 port 587
 from lucas@lucashorton.com
 user lucas@lucashorton.com

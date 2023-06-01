@@ -1,5 +1,5 @@
 IMAPAccount lucas
-Host monday.mxrouting.net 
+Host imap.fastmail.com 
 User lucas@lucashorton.com
 PassCmd "pass $(hostnamectl hostname)/EMAIL_PASSWORD"
 SSLType IMAPS

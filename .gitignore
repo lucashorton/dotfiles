@@ -15,4 +15,5 @@ mpd/.config/mpd/sticker.sql
 msmtp/.config/msmtp/config
 mpd/.config/mpd/state
 package-lock.json
+**/*.log
 

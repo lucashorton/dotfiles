@@ -1,7 +1,8 @@
 * {
   border: none;
-  font-family: Inter;
+  font-family: "MonoLisa";
   font-size: 14px;
+  font-weight:600;
 }
 
 window#waybar {
@@ -37,7 +38,6 @@ window#waybar {
 #workspaces button,
 #tags button {
   border-radius: 100px;
-  font-weight: bold;
   margin: 5px 2px 5px 2px;
   padding: 1px 5px;
   color: #c0caf5;
@@ -81,17 +81,8 @@ window#waybar {
   padding: 0;
 }
 
-#clock {
-  font-weight: bold;
-}
-
 #mode {
   color: #e0af68;
-  font-weight: bold;
-}
-
-#window {
-  font-weight: bold;
 }
 
 #idle_inhibitor.activated {

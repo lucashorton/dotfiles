@@ -1,7 +1,5 @@
 # ZSH Config
 
-export $(envsubst < .env)
-
 # Emacs style keybindings
 bindkey -e
 
@@ -18,6 +16,11 @@ export PATH=$HOME/.local/bin:$PATH
 #ASDF
 . $HOME/.asdf/asdf.sh
 
+# append completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit && compinit
+
 # Fuzzy search
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -33,7 +36,7 @@ function greeting(){
 }
 
 function update() {
-  yay
+  paru 
   flatpak update
 }
 
@@ -53,8 +56,7 @@ alias w='weather'
 alias vi="nvim"
 alias vim="nvim"
 alias mutt="neomutt"
-alias orphan="yay -Qtdq | yay -Rns -"
-
+alias orphan="paru -Qtdq | paru -Rns -"
 # Print greeting
 greeting
 

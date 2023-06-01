@@ -1,28 +1,37 @@
-sw_volume: 80
+sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:my_fifo
-state: pause
-current: 9
-time: 49.501000
+state: play
+current: 12
+time: 83.399000
 random: 1
 repeat: 1
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 01 Press Rewind (ft. Collie Buddz and J Boog).flac
-1:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 02 It's Funny (ft. Eli Mac and Common Kings).flac
-2:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 03 The Day You Came (ft. Rebelution and UB40 ft. Ali Campbell).flac
-3:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 04 Break It Down.flac
-4:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 05 Something To Believe In (ft. Stick Figure).flac
-5:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 06 Things You Can't Control.flac
-6:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 07 Back To The Start (ft. Mihali).flac
-7:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 08 Jump (ft. Slightly Stoopid).flac
-8:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 09 Still You.flac
-9:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 10 Messages.flac
-10:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 11 Reason To Live (ft. Nanpa Basico and Dirty Heads).flac
-11:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 12 This Heart of Mine (ft. Eric Swanson).flac
-12:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 13 Fall Like Rain.flac
+0:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 01 El Bueno Y El Malo.flac
+1:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 02 Hermosa Drive.flac
+2:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 03 Los Chicos Tristes.flac
+3:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 04 Thunderbird.flac
+4:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 05 Cielo Grande.flac
+5:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 06 Tres Hermanos.flac
+6:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 07 Pueblo Man.flac
+7:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 08 La Verdad.flac
+8:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 09 Los Amantes.flac
+9:Hermanos Gutiérrez/El Bueno Y El Malo/Hermanos Gutiérrez - El Bueno Y El Malo - 10 Dorado Valley.flac
+10:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 01 Esperanza.flac
+11:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 02 El Jardin.flac
+12:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 03 Hijos del Sol.flac
+13:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 04 El Mar.flac
+14:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 05 Western Bronco.flac
+15:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 06 Mi Amor.flac
+16:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 07 El Camino de mi Alma.flac
+17:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 08 Cerca de ti.flac
+18:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 09 Hombre Honrado.flac
+19:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 10 El Sol Avenue.flac
+20:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 11 Hoy como ayer.flac
+21:Hermanos Gutiérrez/Eternamente/Hermanos Gutiérrez - Eternamente - 12 Nuevo Mundo.flac
 playlist_end
