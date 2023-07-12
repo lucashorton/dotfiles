@@ -63,3 +63,5 @@ greeting
 # Starship
 
 eval "$(starship init zsh)"
+
+SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"

@@ -1,12 +1,16 @@
 * {
   border: none;
-  font-family: "MonoLisa";
+  font-family: "Inter";
   font-size: 14px;
-  font-weight:600;
+  font-weight: 600;
 }
 
 window#waybar {
-  background: none;
+  background: linear-gradient(
+    180deg,
+    rgba(47, 48, 60, 0.95),
+    rgba(26, 27, 38, 0.95)
+  );
   border-bottom: none;
   color: #c0caf5;
 }
@@ -14,25 +18,7 @@ window#waybar {
 .modules-right,
 .modules-center,
 .modules-left {
-  border-radius: 10px 0 0 10px;
-  background: linear-gradient(
-    180deg,
-    rgba(47, 48, 60, 0.95),
-    rgba(26, 27, 38, 0.95)
-  );
   padding: 0 10px;
-}
-
-.modules-right {
-  border-radius: 0 0 0 10px;
-}
-
-.modules-center {
-  border-radius: 0 0 10px 10px;
-}
-
-.modules-left {
-  border-radius: 0 0 10px 0;
 }
 
 #workspaces button,
@@ -50,6 +36,7 @@ window#waybar {
 }
 
 #workspaces button.focused,
+#workspaces button.active,
 #tags button.focused,
 #workspaces button.focused:hover {
   background: linear-gradient(180deg, #70bae5, #97d8ff);

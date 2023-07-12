@@ -16,13 +16,7 @@ SubFolders Verbatim
 Channel lucas
 Far :lucas-remote:
 Near :lucas-local:
-Patterns * !INBOX/spam
+Patterns * 
 Create Both
 Expunge Both
 SyncState *
-
-Channel lucas-spam
-Far :lucas-remote:INBOX/spam
-Near :lucas-local:Spam
-Create Near
-Expunge Both

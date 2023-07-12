@@ -4,5 +4,5 @@ exec_always {
     gsettings set $gnome-schema font-name 'Inter 12'
     gsettings set $gnome-schema gtk-theme 'Adwaita-dark'
     gsettings set $gnome-schema color-scheme prefer-dark
-    gsettings set $gnome-schema monospace-font-name 'Operator Mono SSm Book 12'
+    gsettings set $gnome-schema monospace-font-name 'MonoLisa Variable 12'
 }

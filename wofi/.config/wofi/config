@@ -5,3 +5,4 @@ lines=5
 matching=contains
 mode=drun
 prompt=
+width=25%

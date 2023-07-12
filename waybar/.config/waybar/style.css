@@ -1,0 +1,86 @@
+* {
+  border: none;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+}
+
+window#waybar {
+  background: none;
+  border-bottom: none;
+  color: #c0caf5;
+}
+
+.modules-right,
+.modules-left {
+  background: rgba(26, 27, 38, 0.75);
+  padding: 0 15px;
+  border-radius: 10px;
+}
+
+.modules-right {
+  margin-right: 10px;
+}
+
+.modules-left {
+  margin-left: 10px;
+}
+
+#workspaces button,
+#tags button {
+  border-radius: 100px;
+  margin: 5px 2px 5px 2px;
+  padding: 1px 5px;
+  color: #c0caf5;
+}
+
+#workspaces button:hover,
+#tags button:hover {
+  background: none;
+  border: none;
+}
+
+#workspaces button.focused,
+#workspaces button.active,
+#tags button.focused,
+#workspaces button.focused:hover {
+  background: #70bae5;
+  color: #2f303c;
+}
+
+#workspaces button.urgent {
+  background-color: #f7768e;
+}
+
+#workspaces button.persistent {
+  color: rgba(192, 202, 245, 0.5);
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#custom-playerctl,
+#custom-arch_updates,
+#tray,
+#mode,
+#mpd,
+#idle_inhibitor {
+  margin: 0 2px;
+  padding: 0;
+}
+
+#mode {
+  color: #e0af68;
+}
+
+#idle_inhibitor.activated {
+  color: #9ece6a;
+}
+
+#temperature.critical {
+  color: #f7768e;
+}
