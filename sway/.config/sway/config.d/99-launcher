@@ -1,6 +1,6 @@
 exec ulauncher --hide-window
 
-set $menu ~/.config/rofi/launchers/type-1/launcher.sh 
+set $menu fuzzel 
 
 # Start your launcher
 bindsym $mod+d exec $menu

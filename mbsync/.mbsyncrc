@@ -1,5 +1,6 @@
 IMAPAccount lucas
 Host imap.fastmail.com 
+Port 993
 User lucas@lucashorton.com
 PassCmd "pass $(hostnamectl hostname)/EMAIL_PASSWORD"
 SSLType IMAPS
