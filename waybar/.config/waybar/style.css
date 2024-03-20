@@ -9,6 +9,7 @@ window#waybar {
   background: none;
   border-bottom: none;
   color: #c0caf5;
+  padding: 100px;
 }
 
 .modules-right,
@@ -32,6 +33,7 @@ window#waybar {
   margin: 5px 2px 5px 2px;
   padding: 1px 5px;
   color: #c0caf5;
+  transition: all 0.2s ease;
 }
 
 #workspaces button:hover,
@@ -40,20 +42,22 @@ window#waybar {
   border: none;
 }
 
-#workspaces button.focused,
+#workspaces button.persistent,
+#workspaces button.empty,
+#tags button.persistent,
+#tags button.empty {
+  background: none;
+}
+
 #workspaces button.active,
-#tags button.focused,
-#workspaces button.focused:hover {
+#tags button.active {
   background: #70bae5;
   color: #2f303c;
 }
 
-#workspaces button.urgent {
+#workspaces button.urgent,
+#tags button.urgent {
   background-color: #f7768e;
-}
-
-#workspaces button.persistent {
-  color: rgba(192, 202, 245, 0.5);
 }
 
 #clock,

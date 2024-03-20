@@ -1,5 +1,3 @@
-exec ulauncher --hide-window
-
 set $menu fuzzel 
 
 # Start your launcher

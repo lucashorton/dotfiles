@@ -1,5 +1,5 @@
 exec_always kanshi
 exec mako
 exec udiskie -t
-exec flatpak run com.bitwarden.desktop 
+exec 1password --silent 
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 

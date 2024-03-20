@@ -2,7 +2,7 @@ sw_volume: 75
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:my_fifo
 state: stop
-current: 0
+current: 1
 random: 0
 repeat: 1
 single: 0

@@ -1,7 +1,7 @@
-allow-image=true
+allow_image=true
 hide_scroll=true
 insensitive=true
-lines=5
+lines=10
 matching=contains
 mode=drun
 prompt=
