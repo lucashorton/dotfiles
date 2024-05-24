@@ -1,2 +1,3 @@
-clear
-reset
+#
+# ~/.bash_logout
+#

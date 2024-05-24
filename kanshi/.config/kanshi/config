@@ -1,28 +1,28 @@
 profile {
-	output DP-5 mode 3840x2160 scale 1 position 0,0
-	output eDP-1 mode 2256x1504 scale 1 position 3840,0
-	output DP-2 disable
+	output DP-5 mode 3840x2160 scale 1.5 position 0,0
+	output eDP-1 mode 2256x1504 scale 1.5 position 3840,0
+	output DP-1 disable
 	exec swaymsg workspace 1, move workspace to DP-5 
 	exec swaymsg workspace 2, move workspace to eDP-1 
 }
 
 profile {
-	output DP-5 mode 3840x2160 scale 1 position 0,0
-	output eDP-1 mode 2256x1504 scale 1 position 3840,0
+	output DP-5 mode 3840x2160 scale 1.5 position 0,0
+	output eDP-1 mode 2256x1504 scale 1.5 position 3840,0
 	exec swaymsg workspace 1, move workspace to DP-5 
 	exec swaymsg workspace 2, move workspace to eDP-1 
 }
 
 profile {
-	output DP-2 mode 3840x2160 scale 1 position 0,0
-	output eDP-1 mode 2256x1504 scale 1 position 3840,0
+	output DP-1 mode 3840x2160 scale 1.5 position 0,0
+	output eDP-1 mode 2256x1504 scale 1.5 position 3840,0
 	exec swaymsg workspace 1, move workspace to DP-2
 	exec swaymsg workspace 2, move workspace to eDP-1 
 }
 
 profile {
-	output HDMI-A-1 mode 3840x2160 scale 1 position 0,0
-	output eDP-1 mode 2256x1504 scale 1 position 3840,0
+	output HDMI-A-1 mode 3840x2160 scale 1.5 position 0,0
+	output eDP-1 mode 2256x1504 scale 1.5 position 3840,0
 	exec swaymsg workspace 1, move workspace to HDMI-A-1 
 	exec swaymsg workspace 2, move workspace to eDP-1 
 }

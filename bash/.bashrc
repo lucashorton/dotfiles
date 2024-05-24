@@ -4,10 +4,6 @@
 
 export PATH=$HOME/.local/bin:$PATH
 
-#ASDF
-
-. $HOME/.asdf/asdf.sh
-
 # SSH Agent
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
@@ -56,7 +52,7 @@ alias mutt="neomutt"
 alias orphan="paru -Qtdq | paru -Rns -"
 
 # Command not found
-source /usr/share/doc/pkgfile/command-not-found.bash
+source /usr/share/doc/find-the-command/ftc.bash
 
 # Auto cd
 
@@ -69,25 +65,9 @@ eval "$(starship init bash)"
 
 # blesh
 
-#[[ $- == *i* ]] && source /usr/share/blesh/ble.sh
+[[ $- == *i* ]] && source /usr/share/blesh/ble.sh
 
+#ASDF
 
-
-
-. "$HOME/.cargo/env"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/lucas/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/lucas/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/lucas/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/lucas/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
+. $HOME/.asdf/asdf.sh
+#. "$HOME/.cargo/env"

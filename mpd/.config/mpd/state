@@ -1,9 +1,10 @@
-sw_volume: 75
+sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:my_fifo
-state: stop
-current: 1
-random: 0
+state: play
+current: 90
+time: 120.628000
+random: 1
 repeat: 1
 single: 0
 consume: 0
@@ -11,18 +12,141 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 01 Endless Summer.flac
-1:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 02 Gimme Love.flac
-2:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 03 M.I.A.flac
-3:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 04 Castaway.flac
-4:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 05 Roll Up.flac
-5:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 06 Sunlight.flac
-6:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 07 All Her Favorite Songs (with Little Stranger).flac
-7:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 08 Interlude.flac
-8:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 09 Red Wine.flac
-9:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 10 Mind Bender (with Surfer Girl).flac
-10:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 11 Come And Get It.flac
-11:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 12 Burn Slow.flac
-12:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 13 Keep My Head Up.flac
-13:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 14 Looking Out The Window And Driving.flac
+0:Fortunate Youth/Good Times (Roll On)/02 - Around the World (feat. Mellow Mood).mp3
+1:Fortunate Youth/Good Times (Roll On)/01 - Too Big.mp3
+2:Fortunate Youth/Good Times (Roll On)/03 - Burning with You.mp3
+3:Fortunate Youth/Good Times (Roll On)/04 - Sunlight.mp3
+4:Fortunate Youth/Good Times (Roll On)/05 - The City.mp3
+5:Fortunate Youth/Good Times (Roll On)/06 - The Situation.mp3
+6:Fortunate Youth/Good Times (Roll On)/07 - Good Times (Roll On).mp3
+7:Fortunate Youth/Good Times (Roll On)/08 - Friend.mp3
+8:Fortunate Youth/Good Times (Roll On)/09 - Em Interlude.mp3
+9:Fortunate Youth/Good Times (Roll On)/10 - Riddim Rydah (feat. Skillinjah & Dread Kennedy).mp3
+10:Fortunate Youth/Good Times (Roll On)/11 - Groovin (feat. Iya Terra).mp3
+11:Fortunate Youth/Good Times (Roll On)/12 - The Cure.mp3
+12:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 01 Ease & Grace.flac
+13:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 02 Your Wars.flac
+14:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 03 Wiser Now.flac
+15:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 04 Price You'll Pay (feat Tribal Seeds).flac
+16:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 05 Get What You Give.flac
+17:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 06 Mind Control.flac
+18:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 07 We All Walk Our Own Roads (feat. Trevor Hall).flac
+19:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 08 Sometimes.flac
+20:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 09 Gone Away.flac
+21:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 10 Future.flac
+22:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 11 All Life (feat. Mike Love).flac
+23:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 12 Outer Space.flac
+24:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 13 Forwards Bound (feat. Steel Pulse).flac
+25:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 14 Together.flac
+26:Iya Terra/Ease & Grace/Iya Terra - Ease & Grace - 15 Take Control (feat. Alborosie & Bobby Lee).flac
+27:Rebelution/Count Me In/01 Count Me In.flac
+28:Rebelution/Count Me In/02 De-Stress.flac
+29:Rebelution/Count Me In/03 More Love.flac
+30:Rebelution/Count Me In/04 Lost in Dreams.flac
+31:Rebelution/Count Me In/05 Fade Away.flac
+32:Rebelution/Count Me In/06 Hate to Be the One.flac
+33:Rebelution/Count Me In/07 Notice Me.flac
+34:Rebelution/Count Me In/08 Roots Reggae Music.flac
+35:Rebelution/Count Me In/09 Counterfeit Love.flac
+36:Rebelution/Count Me In/10 Against the Grain.flac
+37:Rebelution/Count Me In/11 Invasion.flac
+38:Slightly Stoopid/Slightly Stoopid - Got Me On The Run (with Stick Figure & Pepper).flac
+39:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 01 Press Rewind (ft. Collie Buddz and J Boog).flac
+40:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 02 It's Funny (ft. Eli Mac and Common Kings).flac
+41:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 03 The Day You Came (ft. Rebelution and UB40 ft. Ali Campbell).flac
+42:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 04 Break It Down.flac
+43:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 05 Something To Believe In (ft. Stick Figure).flac
+44:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 06 Things You Can't Control.flac
+45:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 07 Back To The Start (ft. Mihali).flac
+46:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 08 Jump (ft. Slightly Stoopid).flac
+47:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 09 Still You.flac
+48:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 10 Messages.flac
+49:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 11 Reason To Live (ft. Nanpa Basico and Dirty Heads).flac
+50:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 12 This Heart of Mine (ft. Eric Swanson).flac
+51:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 13 Fall Like Rain.flac
+52:Stick Figure/Jack Johnson & Stick Figure - Home.flac
+53:Stick Figure/Wisdom/Stick Figure - Wisdom - 01 Old Sunrise.flac
+54:Stick Figure/Wisdom/Stick Figure - Wisdom - 02 Paradise.flac
+55:Stick Figure/Wisdom/Stick Figure - Wisdom - 03 Way of Life (feat. Slightly Stoopid).flac
+56:Stick Figure/Wisdom/Stick Figure - Wisdom - 04 Edge of the Ocean.flac
+57:Stick Figure/Wisdom/Stick Figure - Wisdom - 05 Stepping Stones.flac
+58:Stick Figure/Wisdom/Stick Figure - Wisdom - 06 Fall into the Sun.flac
+59:Stick Figure/Wisdom/Stick Figure - Wisdom - 08 Soul of the World (feat. Barrington Levy).flac
+60:Stick Figure/Wisdom/Stick Figure - Wisdom - 09 Smoke Signals.flac
+61:Stick Figure/Wisdom/Stick Figure - Wisdom - 10 Here Comes the Sound.flac
+62:Stick Figure/Wisdom/Stick Figure - Wisdom - 11 Sound System.flac
+63:Stick Figure/Wisdom/Stick Figure - Wisdom - 12 Satisfaction Feeling.flac
+64:Stick Figure/Wisdom/Stick Figure - Wisdom - 13 Higher (feat. Slightly Stoopid).flac
+65:Stick Figure/Wisdom/Stick Figure - Wisdom - 14 Falling Stars.flac
+66:Stick Figure/World on Fire/Stick Figure - World on Fire - 01 Once in a Lifetime.flac
+67:Stick Figure/World on Fire/Stick Figure - World on Fire - 02 World on Fire (feat. Slightly Stoopid).flac
+68:Stick Figure/World on Fire/Stick Figure - World on Fire - 03 Angels Above Me.flac
+69:Stick Figure/World on Fire/Stick Figure - World on Fire - 04 Shine.flac
+70:Stick Figure/World on Fire/Stick Figure - World on Fire - 05 All for You.flac
+71:Stick Figure/World on Fire/Stick Figure - World on Fire - 06 Above the Storm.flac
+72:Stick Figure/World on Fire/Stick Figure - World on Fire - 07 Whiskey Sun (feat. TJ O'Neill).flac
+73:Stick Figure/World on Fire/Stick Figure - World on Fire - 08 Summertime (feat. Citizen Cope).flac
+74:Stick Figure/Wisdom/Stick Figure - Wisdom - 07 Showdown (feat. Collie Buddz).flac
+75:Stick Figure/World on Fire/Stick Figure - World on Fire - 10 The Great Unknown.flac
+76:Stick Figure/World on Fire/Stick Figure - World on Fire - 11 Rise and Fall.flac
+77:Stick Figure/World on Fire/Stick Figure - World on Fire - 12 Life is a Party.flac
+78:Stick Figure/World on Fire/Stick Figure - World on Fire - 13 Cocoa de Rock.flac
+79:Stick Figure/World on Fire/Stick Figure - World on Fire - 14 Welcome to the Sun.flac
+80:Stick Figure/World on Fire/Stick Figure - World on Fire - 15 Burn the Night.flac
+81:Stick Figure/World on Fire/Stick Figure - World on Fire - 09 Easy Runaway.flac
+82:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 01 Endless Summer.flac
+83:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 02 Gimme Love.flac
+84:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 03 M.I.A.flac
+85:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 04 Castaway.flac
+86:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 05 Roll Up.flac
+87:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 06 Sunlight.flac
+88:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 07 All Her Favorite Songs (with Little Stranger).flac
+89:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 08 Interlude.flac
+90:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 09 Red Wine.flac
+91:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 10 Mind Bender (with Surfer Girl).flac
+92:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 11 Come And Get It.flac
+93:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 12 Burn Slow.flac
+94:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 13 Keep My Head Up.flac
+95:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 14 Looking Out The Window And Driving.flac
+96:The Hip Abduction/The Hip Abduction - An Island Still Remains.flac
+97:The Hip Abduction/The Hip Abduction - Some Say the Ocean (Reggae Remix).flac
+98:The Hip Abduction/The Hip Abduction - Some Say the Ocean.flac
+99:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 01 Always With Me.flac
+100:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 02 Afraid.flac
+101:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 03 Beg Borrow & Steal.flac
+102:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 04 Sounds Of Summer (with Slightly Stoopid).flac
+103:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 05 Elephant.flac
+104:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 06 No Worry.flac
+105:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 07 Worth Fighting For.flac
+106:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 08 Chainz.flac
+107:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 09 Jungle.flac
+108:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 10 Mountain (with Clinton Fearon).flac
+109:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 11 Actor (with HIRIE).flac
+110:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 12 High Roller.flac
+111:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 13 On & On (with Iration).flac
+112:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 14 Love To Burn (with Soom T).flac
+113:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 15 U Don't Know Me.flac
+114:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 16 At The End Of The Day.flac
+115:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 17 We Are Young.flac
+116:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 18 Sounds Of Summer Remix (with Slightly Stoopid & J Boog).flac
+117:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 19 Mountain (Johnny Cosmic Remix).flac
+118:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 20 Jungle (IzyBeats Remix).flac
+119:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 21 Chainz (Little Stranger Remix).flac
+120:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 22 Sounds Of Summer (E.N. Young Remix).flac
+121:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 23 U Don't Know Me (Piano Version).flac
+122:The Movement/Ways Of The World/The Movement - Ways Of The World - 01 Ways Of The World.flac
+123:The Movement/Ways Of The World/The Movement - Ways Of The World - 02 Redwoodz (feat. Iya Terra).flac
+124:The Movement/Ways Of The World/The Movement - Ways Of The World - 03 Take Me To The Ocean.flac
+125:The Movement/Ways Of The World/The Movement - Ways Of The World - 04 Orange Sky.flac
+126:The Movement/Ways Of The World/The Movement - Ways Of The World - 05 Diamond (feat. Jacob Hemphill of SOJA).flac
+127:The Movement/Ways Of The World/The Movement - Ways Of The World - 06 Siren (feat. Stick Figure).flac
+128:The Movement/Ways Of The World/The Movement - Ways Of The World - 07 Life Is A Circle.flac
+129:The Movement/Ways Of The World/The Movement - Ways Of The World - 08 The Great Discovery.flac
+130:The Movement/Ways Of The World/The Movement - Ways Of The World - 10 Loud Enough.flac
+131:The Movement/Ways Of The World/The Movement - Ways Of The World - 09 Honey.flac
+132:The Movement/Ways Of The World/The Movement - Ways Of The World - 11 Cool Me Down.flac
+133:The Movement/Ways Of The World/The Movement - Ways Of The World - 12 Break In The Glass (feat. Chali 2Na).flac
+134:The Movement/Ways Of The World/The Movement - Ways Of The World - 13 Remember (The Return).flac
+135:TJ O'Neill/TJ O'Neill - A Pirate Looks at 40 (feat. Stick Figure, KBong & Johnny Cosmic).flac
+136:TJ O'Neill/TJ O'Neill - Railroad Shelter (feat. Stick Figure).flac
 playlist_end
