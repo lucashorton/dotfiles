@@ -15,7 +15,7 @@ window#waybar {
 .modules-left {
   background: rgba(26, 27, 38, 0.75);
   padding: 0 15px;
-  border-radius: 10px;
+  border-radius: 100px;
 }
 
 .modules-right {
@@ -41,10 +41,9 @@ window#waybar {
   background: none;
 }
 
-#workspaces button.focused
+#workspaces button.active, #workspaces button.focused
 {
-  background-color: #70bae5;
-  color:rgb(26,27,38);
+  background-color: rgba(255,255,255,0.2);
   border-radius:15px;
 }
 

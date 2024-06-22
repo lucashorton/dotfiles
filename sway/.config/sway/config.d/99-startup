@@ -1,5 +1,5 @@
 exec_always kanshi
 exec mako
-exec udiskie -t
-exec 1password --silent 
+exec 1password --silent
+exec nextcloud --background
 exec --no-startup-id /usr/lib/pam_kwallet_init
