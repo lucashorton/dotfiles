@@ -1,5 +1,5 @@
 bar {
-  swaybar_command /home/lucas/.config/waybar/waybar-sway.sh 
+  swaybar_command /home/lucas/.config/waybar/waybar.sh 
 	position top
 	mode dock 
 }

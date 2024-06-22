@@ -1,7 +1,7 @@
 * {
   border: none;
-  font-family: "Inter";
-  font-size: 14px;
+  font-family: "MonoLisa Variable";
+  font-size: 11px;
   font-weight: 600;
 }
 
@@ -9,7 +9,6 @@ window#waybar {
   background: none;
   border-bottom: none;
   color: #c0caf5;
-  padding: 100px;
 }
 
 .modules-right,
@@ -27,36 +26,30 @@ window#waybar {
   margin-left: 10px;
 }
 
-#workspaces button,
-#tags button {
-  border-radius: 100px;
-  margin: 5px 2px 5px 2px;
-  padding: 1px 5px;
+#workspaces button
+{
+  margin: 2px 2px 2px 2px;
+  border-radius:0;
+  padding:1px 5px;
   color: #c0caf5;
-  transition: all 0.2s ease;
-}
-
-#workspaces button:hover,
-#tags button:hover {
-  background: none;
   border: none;
 }
 
-#workspaces button.persistent,
-#workspaces button.empty,
-#tags button.persistent,
-#tags button.empty {
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
   background: none;
 }
 
-#workspaces button.active,
-#tags button.active {
-  background: #70bae5;
-  color: #2f303c;
+#workspaces button.focused
+{
+  background-color: #70bae5;
+  color:rgb(26,27,38);
+  border-radius:15px;
 }
 
-#workspaces button.urgent,
-#tags button.urgent {
+#workspaces button.urgent
+{
   background-color: #f7768e;
 }
 
@@ -73,7 +66,7 @@ window#waybar {
 #mode,
 #mpd,
 #idle_inhibitor {
-  margin: 0 2px;
+  margin: 0;
   padding: 0;
 }
 

@@ -13,6 +13,8 @@ Plug 'dense-analysis/ale'
 Plug 'junegunn/vim-easy-align'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
@@ -23,10 +25,18 @@ Plug 'neomutt/neomutt.vim'
 Plug 'Luxed/ayu-vim'
 call plug#end()
 
+" CoC extensions
+let g:coc_global_extensions = ['coc-tsserver']
+
 set number
 set noshowmode
+set hidden
 
 syntax on
+
+" Prettier config
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
@@ -38,7 +48,6 @@ set termguicolors
 set background=dark
 let g:ayucolor="mirage"
 colorscheme ayu
-
 
 
 let g:ctrlp_map = '<c-p>'
