@@ -1,6 +1,6 @@
 set $blue       #41a6b5
 set $light-gray #c0caf5
-set $dark-gray  #1f2335
+set $dark-gray  #24283b
 set $red        #ff007c
 
 # class                     border  		  backgr. 	    text    	    indicator     child_border
