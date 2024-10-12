@@ -13,16 +13,14 @@ setopt HIST_FIND_NO_DUPS
 # Path
 export PATH=$HOME/.local/bin:$PATH
 
-#ASDF
-. $HOME/.asdf/asdf.sh
-
-# append completions to fpath
-fpath=(${ASDF_DIR}/completions $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
 
 # Fuzzy search
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
+
+# find-the-command
+source /usr/share/doc/find-the-command/ftc.zsh
 
 # Colors
 autoload colors; colors
@@ -31,12 +29,13 @@ autoload colors; colors
 function greeting(){
   NAME=$(figlet $HOST)
   echo $fg[green]$NAME
+  echo ""
   inxi
   echo ""
 }
 
 function update() {
-  paru 
+  yay 
   flatpak update
 }
 
@@ -56,13 +55,136 @@ alias w='weather'
 alias vi="nvim"
 alias vim="nvim"
 alias mutt="neomutt"
-alias orphan="paru -Qtdq | paru -Rns -"
+alias orphan="yay -Qtdq | yay -Rns -"
 # Print greeting
 greeting
+
+# Mise
+echo "eval \"\$(/home/lucas/.local/bin/mise activate zsh)\"" >> "/home/lucas/.zshrc"
 
 # Starship
 
 eval "$(starship init zsh)"
 
 SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
-source "$HOME/.cargo/env"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"
+eval "$(/home/lucas/.local/bin/mise activate zsh)"

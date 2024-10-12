@@ -16,4 +16,5 @@ msmtp/.config/msmtp/config
 mpd/.config/mpd/state
 package-lock.json
 **/*.log
+tmux/.config/tmux/plugins
 

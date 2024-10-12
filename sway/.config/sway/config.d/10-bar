@@ -1,0 +1,17 @@
+bar {
+ status_command i3status-rs --never-pause
+ position top
+ tray_output *
+ font "MonoLisa Variable 10"
+ colors {
+   statusline #c0caf5
+   background #24283b
+   focused_workspace #24283b #24283b #ff9e64
+   active_workspace #24283b #24283b #c0caf5
+   inactive_workspace #24283b #24283b #737aa2
+   binding_mode #24283b #24283b #ff007c
+ }
+ tray {
+   icon_theme Kora 
+ }
+}

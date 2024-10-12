@@ -1,7 +1,7 @@
 * {
   border: none;
   font-family: "MonoLisa Variable";
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -15,7 +15,7 @@ window#waybar {
 .modules-left {
   background: rgba(26, 27, 38, 0.75);
   padding: 0 15px;
-  border-radius: 100px;
+  border-radius: 5px;
 }
 
 .modules-right {
@@ -26,11 +26,10 @@ window#waybar {
   margin-left: 10px;
 }
 
-#workspaces button
-{
+#workspaces button {
   margin: 2px 2px 2px 2px;
-  border-radius:0;
-  padding:1px 5px;
+  border-radius: 0;
+  padding: 1px 5px;
   color: #c0caf5;
   border: none;
 }
@@ -41,14 +40,13 @@ window#waybar {
   background: none;
 }
 
-#workspaces button.active, #workspaces button.focused
-{
-  background-color: rgba(255,255,255,0.2);
-  border-radius:15px;
+#workspaces button.active,
+#workspaces button.focused {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
 }
 
-#workspaces button.urgent
-{
+#workspaces button.urgent {
   background-color: #f7768e;
 }
 

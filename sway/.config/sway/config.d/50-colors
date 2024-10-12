@@ -1,0 +1,10 @@
+set $orange	#ffcc66
+set $light-gray #cccac2
+set $dark-gray #1c212b
+set $red #ff6666
+
+# class                     border  		  backgr. 	    text    	    indicator     child_border
+client.focused 		    	$orange        $orange    $dark-gray	    $orange    $orange
+client.focused_inactive     $dark-gray	  $orange    $dark-gray 	$dark-gray  $dark-gray
+client.unfocused	        $dark-gray	  $dark-gray  $light-gray 	$dark-gray  $dark-gray
+client.urgent 		        $red 		      $red 		    $light-gray 	$red          $red
