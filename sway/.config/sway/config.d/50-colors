@@ -1,10 +1,10 @@
-set $orange	#ffcc66
-set $light-gray #cccac2
-set $dark-gray #1c212b
-set $red #ff6666
+set $blue       #41a6b5
+set $light-gray #c0caf5
+set $dark-gray  #1f2335
+set $red        #ff007c
 
 # class                     border  		  backgr. 	    text    	    indicator     child_border
-client.focused 		    	$orange        $orange    $dark-gray	    $orange    $orange
-client.focused_inactive     $dark-gray	  $orange    $dark-gray 	$dark-gray  $dark-gray
-client.unfocused	        $dark-gray	  $dark-gray  $light-gray 	$dark-gray  $dark-gray
-client.urgent 		        $red 		      $red 		    $light-gray 	$red          $red
+client.focused 		        	$blue         $blue         $dark-gray	  $blue         $blue 
+client.focused_inactive     $dark-gray	  $blue         $dark-gray 	  $dark-gray    $dark-gray
+client.unfocused	          $dark-gray	  $dark-gray    $light-gray 	$dark-gray    $dark-gray
+client.urgent 		          $red 		      $red 		      $light-gray 	$red          $red

@@ -1,4 +1,5 @@
 exec_always shikane 
+exec_always autotiling
 exec mako
 exec flatpak run com.nextcloud.desktopclient.nextcloud --background
 exec sway-audio-idle-inhibit 
