@@ -1,7 +1,7 @@
-set $blue       #41a6b5
+set $blue       #5ccfe6
 set $light-gray #c0caf5
 set $dark-gray  #24283b
-set $red        #ff007c
+set $red        #f28779
 
 # class                     border  		  backgr. 	    text    	    indicator     child_border
 client.focused 		        	$blue         $blue         $dark-gray	  $blue         $blue 

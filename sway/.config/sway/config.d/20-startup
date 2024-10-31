@@ -1,7 +1,7 @@
-exec_always shikane 
+exec_always kanshi
 exec_always autotiling
 exec mako
-exec flatpak run com.nextcloud.desktopclient.nextcloud --background
-exec sway-audio-idle-inhibit 
+exec nextcloud --background
+exec sway-audio-idle-inhibit
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec_always $HOME/sway/scripts/import-gsettings

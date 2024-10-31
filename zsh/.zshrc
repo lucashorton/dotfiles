@@ -60,11 +60,10 @@ alias orphan="yay -Qtdq | yay -Rns -"
 greeting
 
 # Mise
-echo "eval \"\$(/home/lucas/.local/bin/mise activate zsh)\"" >> "/home/lucas/.zshrc"
+eval "$(/usr/bin/mise activate zsh)"
 
 # Starship
-
 eval "$(starship init zsh)"
 
 SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/gcr/ssh"
-eval "$(/home/lucas/.local/bin/mise activate zsh)"
+
