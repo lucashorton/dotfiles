@@ -35,8 +35,7 @@ function greeting(){
 }
 
 function update() {
-  yay 
-  flatpak update
+  paru 
 }
 
 function weather() {

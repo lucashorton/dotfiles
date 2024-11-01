@@ -1,8 +1,9 @@
 sw_volume: 100
 audio_device_state:1:My Pipewire Device
 audio_device_state:1:my_fifo
-state: stop
-current: 16
+state: play
+current: 6
+time: 119.803000
 random: 1
 repeat: 1
 single: 0
@@ -11,191 +12,15 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Fortunate Youth/Good Times (Roll On)/01 - Too Big.mp3
-1:Fortunate Youth/Good Times (Roll On)/02 - Around the World (feat. Mellow Mood).mp3
-2:Fortunate Youth/Good Times (Roll On)/03 - Burning with You.mp3
-3:Fortunate Youth/Good Times (Roll On)/04 - Sunlight.mp3
-4:Fortunate Youth/Good Times (Roll On)/05 - The City.mp3
-5:Fortunate Youth/Good Times (Roll On)/06 - The Situation.mp3
-6:Fortunate Youth/Good Times (Roll On)/07 - Good Times (Roll On).mp3
-7:Fortunate Youth/Good Times (Roll On)/08 - Friend.mp3
-8:Fortunate Youth/Good Times (Roll On)/09 - Em Interlude.mp3
-9:Fortunate Youth/Good Times (Roll On)/10 - Riddim Rydah (feat. Skillinjah & Dread Kennedy).mp3
-10:Fortunate Youth/Good Times (Roll On)/11 - Groovin (feat. Iya Terra).mp3
-11:Fortunate Youth/Good Times (Roll On)/12 - The Cure.mp3
-12:Khruangbin/Christmas Time Is Here (N & S America Edition)/01 Christmas Time Is Here.flac
-13:Khruangbin/Christmas Time Is Here (N & S America Edition)/02 Christmas Time Is Here (Version Mary).flac
-14:Khruangbin/Con todo el mundo/01 Cómo me quieres.flac
-15:Khruangbin/Con todo el mundo/02 Lady and Man.flac
-16:Khruangbin/Con todo el mundo/03 Maria también.flac
-17:Khruangbin/Con todo el mundo/04 August 10.flac
-18:Khruangbin/Con todo el mundo/05 Cómo te quiero.flac
-19:Khruangbin/Con todo el mundo/06 Shades of Man.flac
-20:Khruangbin/Con todo el mundo/07 Evan Finds the Third Room.flac
-21:Khruangbin/Con todo el mundo/08 A Hymn.flac
-22:Khruangbin/Con todo el mundo/09 Rules.flac
-23:Khruangbin/Con todo el mundo/10 Friday Morning.flac
-24:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/01 With All the World.flac
-25:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/02 Sisters & Brothers.flac
-26:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/03 Mary Always.flac
-27:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/04 Four of Five.flac
-28:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/05 How I Love.flac
-29:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/06 Sunny’s Vision.flac
-30:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/07 A la sala.flac
-31:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/08 The Red Book.flac
-32:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/09 Order of Operations.flac
-33:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/10 Hasta el cielo.flac
-34:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/11 Rules - Scientist Dub.flac
-35:Khruangbin/Hasta El Cielo (Con Todo El Mundo in Dub)/12 Cómo te quiero - Scientist Dub.flac
-36:Khruangbin/Mordechai/01 First Class.flac
-37:Khruangbin/Mordechai/02 Time (You and I).flac
-38:Khruangbin/Mordechai/03 Connaissais de Face.flac
-39:Khruangbin/Mordechai/04 Father Bird, Mother Bird.flac
-40:Khruangbin/Mordechai/05 If There Is No Question.flac
-41:Khruangbin/Mordechai/06 Pelota.flac
-42:Khruangbin/Mordechai/07 One to Remember.flac
-43:Khruangbin/Mordechai/08 Dearest Alfred.flac
-44:Khruangbin/Mordechai/09 So We Won’t Forget.flac
-45:Khruangbin/Mordechai/10 Shida.flac
-46:Khruangbin/People Everywhere (Still Alive) Remixes/01 People Everywhere (Still Alive) - Extended.flac
-47:Khruangbin/People Everywhere (Still Alive) Remixes/02 People Everywhere (Still Alive) - Vuelo Dub Remix.flac
-48:Khruangbin/The Universe Smiles Upon You/01 Mr. White.flac
-49:Khruangbin/The Universe Smiles Upon You/02 Two Fish and an Elephant.flac
-50:Khruangbin/The Universe Smiles Upon You/03 Dern Kala.flac
-51:Khruangbin/The Universe Smiles Upon You/04 Little Joe & Mary.flac
-52:Khruangbin/The Universe Smiles Upon You/05 White Gloves.flac
-53:Khruangbin/The Universe Smiles Upon You/06 People Everywhere (Still Alive).flac
-54:Khruangbin/The Universe Smiles Upon You/07 The Man Who Took My Sunglasses.flac
-55:Khruangbin/The Universe Smiles Upon You/08 August Twelve.flac
-56:Khruangbin/The Universe Smiles Upon You/09 Balls and Pins.flac
-57:Khruangbin/The Universe Smiles Upon You/10 Zionsville.flac
-58:Khruangbin/The Universe Smiles Upon You/11 The Universe Smiles Upon You.flac
-59:Orions Belte/Mint/Orions Belte - Mint - 01 New Years Eve #2.flac
-60:Orions Belte/Mint/Orions Belte - Mint - 02 Papillon.flac
-61:Orions Belte/Mint/Orions Belte - Mint - 03 Delmonte.flac
-62:Orions Belte/Mint/Orions Belte - Mint - 04 Joe Frazier.flac
-63:Orions Belte/Mint/Orions Belte - Mint - 05 Moving Back Again.flac
-64:Orions Belte/Mint/Orions Belte - Mint - 06 Le Mans.flac
-65:Orions Belte/Mint/Orions Belte - Mint - 07 Picturephone Blues.flac
-66:Orions Belte/Mint/Orions Belte - Mint - 08 Atlantic Surfing.flac
-67:Orions Belte/Mint/Orions Belte - Mint - 09 Alnitak.flac
-68:Rebelution/Count Me In/01 Count Me In.flac
-69:Rebelution/Count Me In/02 De-Stress.flac
-70:Rebelution/Count Me In/03 More Love.flac
-71:Rebelution/Count Me In/04 Lost in Dreams.flac
-72:Rebelution/Count Me In/05 Fade Away.flac
-73:Rebelution/Count Me In/06 Hate to Be the One.flac
-74:Rebelution/Count Me In/07 Notice Me.flac
-75:Rebelution/Count Me In/08 Roots Reggae Music.flac
-76:Rebelution/Count Me In/09 Counterfeit Love.flac
-77:Rebelution/Count Me In/10 Against the Grain.flac
-78:Rebelution/Count Me In/11 Invasion.flac
-79:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 01 Press Rewind (ft. Collie Buddz and J Boog).flac
-80:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 02 It's Funny (ft. Eli Mac and Common Kings).flac
-81:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 03 The Day You Came (ft. Rebelution and UB40 ft. Ali Campbell).flac
-82:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 04 Break It Down.flac
-83:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 05 Something To Believe In (ft. Stick Figure).flac
-84:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 06 Things You Can't Control.flac
-85:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 07 Back To The Start (ft. Mihali).flac
-86:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 08 Jump (ft. Slightly Stoopid).flac
-87:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 09 Still You.flac
-88:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 10 Messages.flac
-89:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 11 Reason To Live (ft. Nanpa Basico and Dirty Heads).flac
-90:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 12 This Heart of Mine (ft. Eric Swanson).flac
-91:SOJA/Beauty In The Silence/SOJA - Beauty In The Silence - 13 Fall Like Rain.flac
-92:Stick Figure/Jack Johnson & Stick Figure - Home.flac
-93:Stick Figure/Wisdom/Stick Figure - Wisdom - 01 Old Sunrise.flac
-94:Stick Figure/Wisdom/Stick Figure - Wisdom - 02 Paradise.flac
-95:Stick Figure/Wisdom/Stick Figure - Wisdom - 03 Way of Life (feat. Slightly Stoopid).flac
-96:Stick Figure/Wisdom/Stick Figure - Wisdom - 04 Edge of the Ocean.flac
-97:Stick Figure/Wisdom/Stick Figure - Wisdom - 05 Stepping Stones.flac
-98:Stick Figure/Wisdom/Stick Figure - Wisdom - 06 Fall into the Sun.flac
-99:Stick Figure/Wisdom/Stick Figure - Wisdom - 07 Showdown (feat. Collie Buddz).flac
-100:Stick Figure/Wisdom/Stick Figure - Wisdom - 08 Soul of the World (feat. Barrington Levy).flac
-101:Stick Figure/Wisdom/Stick Figure - Wisdom - 09 Smoke Signals.flac
-102:Stick Figure/Wisdom/Stick Figure - Wisdom - 10 Here Comes the Sound.flac
-103:Stick Figure/Wisdom/Stick Figure - Wisdom - 11 Sound System.flac
-104:Stick Figure/Wisdom/Stick Figure - Wisdom - 12 Satisfaction Feeling.flac
-105:Stick Figure/Wisdom/Stick Figure - Wisdom - 13 Higher (feat. Slightly Stoopid).flac
-106:Stick Figure/Wisdom/Stick Figure - Wisdom - 14 Falling Stars.flac
-107:Stick Figure/World on Fire/Stick Figure - World on Fire - 01 Once in a Lifetime.flac
-108:Stick Figure/World on Fire/Stick Figure - World on Fire - 02 World on Fire (feat. Slightly Stoopid).flac
-109:Stick Figure/World on Fire/Stick Figure - World on Fire - 03 Angels Above Me.flac
-110:Stick Figure/World on Fire/Stick Figure - World on Fire - 04 Shine.flac
-111:Stick Figure/World on Fire/Stick Figure - World on Fire - 05 All for You.flac
-112:Stick Figure/World on Fire/Stick Figure - World on Fire - 06 Above the Storm.flac
-113:Stick Figure/World on Fire/Stick Figure - World on Fire - 07 Whiskey Sun (feat. TJ O'Neill).flac
-114:Stick Figure/World on Fire/Stick Figure - World on Fire - 08 Summertime (feat. Citizen Cope).flac
-115:Stick Figure/World on Fire/Stick Figure - World on Fire - 09 Easy Runaway.flac
-116:Stick Figure/World on Fire/Stick Figure - World on Fire - 10 The Great Unknown.flac
-117:Stick Figure/World on Fire/Stick Figure - World on Fire - 11 Rise and Fall.flac
-118:Stick Figure/World on Fire/Stick Figure - World on Fire - 12 Life is a Party.flac
-119:Stick Figure/World on Fire/Stick Figure - World on Fire - 13 Cocoa de Rock.flac
-120:Stick Figure/World on Fire/Stick Figure - World on Fire - 14 Welcome to the Sun.flac
-121:Stick Figure/World on Fire/Stick Figure - World on Fire - 15 Burn the Night.flac
-122:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 01 Endless Summer.flac
-123:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 02 Gimme Love.flac
-124:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 03 M.I.A.flac
-125:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 04 Castaway.flac
-126:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 05 Roll Up.flac
-127:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 06 Sunlight.flac
-128:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 07 All Her Favorite Songs (with Little Stranger).flac
-129:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 08 Interlude.flac
-130:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 09 Red Wine.flac
-131:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 10 Mind Bender (with Surfer Girl).flac
-132:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 11 Come And Get It.flac
-133:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 12 Burn Slow.flac
-134:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 13 Keep My Head Up.flac
-135:The Elovaters/Endless Summer/The Elovaters - Endless Summer - 14 Looking Out The Window And Driving.flac
-136:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 01 Always With Me.flac
-137:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 02 Afraid.flac
-138:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 03 Beg Borrow & Steal.flac
-139:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 04 Sounds Of Summer (with Slightly Stoopid).flac
-140:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 05 Elephant.flac
-141:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 06 No Worry.flac
-142:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 07 Worth Fighting For.flac
-143:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 08 Chainz.flac
-144:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 09 Jungle.flac
-145:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 10 Mountain (with Clinton Fearon).flac
-146:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 11 Actor (with HIRIE).flac
-147:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 12 High Roller.flac
-148:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 13 On & On (with Iration).flac
-149:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 14 Love To Burn (with Soom T).flac
-150:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 15 U Don't Know Me.flac
-151:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 16 At The End Of The Day.flac
-152:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 17 We Are Young.flac
-153:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 18 Sounds Of Summer Remix (with Slightly Stoopid & J Boog).flac
-154:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 19 Mountain (Johnny Cosmic Remix).flac
-155:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 20 Jungle (IzyBeats Remix).flac
-156:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 21 Chainz (Little Stranger Remix).flac
-157:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 22 Sounds Of Summer (E.N. Young Remix).flac
-158:The Movement/Always With Me (Deluxe)/The Movement - Always With Me (Deluxe) - 23 U Don't Know Me (Piano Version).flac
-159:The Movement/Ways Of The World/The Movement - Ways Of The World - 01 Ways Of The World.flac
-160:The Movement/Ways Of The World/The Movement - Ways Of The World - 02 Redwoodz (feat. Iya Terra).flac
-161:The Movement/Ways Of The World/The Movement - Ways Of The World - 03 Take Me To The Ocean.flac
-162:The Movement/Ways Of The World/The Movement - Ways Of The World - 04 Orange Sky.flac
-163:The Movement/Ways Of The World/The Movement - Ways Of The World - 05 Diamond (feat. Jacob Hemphill of SOJA).flac
-164:The Movement/Ways Of The World/The Movement - Ways Of The World - 06 Siren (feat. Stick Figure).flac
-165:The Movement/Ways Of The World/The Movement - Ways Of The World - 07 Life Is A Circle.flac
-166:The Movement/Ways Of The World/The Movement - Ways Of The World - 08 The Great Discovery.flac
-167:The Movement/Ways Of The World/The Movement - Ways Of The World - 09 Honey.flac
-168:The Movement/Ways Of The World/The Movement - Ways Of The World - 10 Loud Enough.flac
-169:The Movement/Ways Of The World/The Movement - Ways Of The World - 11 Cool Me Down.flac
-170:The Movement/Ways Of The World/The Movement - Ways Of The World - 12 Break In The Glass (feat. Chali 2Na).flac
-171:The Movement/Ways Of The World/The Movement - Ways Of The World - 13 Remember (The Return).flac
-172:The Surfrajettes/El Condor Pasa - Single/The Surfrajettes - El Condor Pasa - Single - 01 El Condor Pasa.flac
-173:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 01 Intro.flac
-174:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 02 Warm Up.flac
-175:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 03 Roxy Roller.flac
-176:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 04 Couch Surfing.flac
-177:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 05 Salty Sister.flac
-178:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 06 Surfer's Slide.flac
-179:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 07 Slush Puppy.flac
-180:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 08 Train Kept A-Rollin'.flac
-181:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 09 Heart of Glass.flac
-182:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 10 Roller Fink.flac
-183:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 11 She Loves You.flac
-184:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 12 Priscilla.flac
-185:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 13 Snowball Intro.flac
-186:The Surfrajettes/Roller Fink/The Surfrajettes - Roller Fink - 14 Snowball.flac
+0:Grace Cummings/Ramona/Grace Cummings - Ramona - 01 Something Going 'Round.flac
+1:Grace Cummings/Ramona/Grace Cummings - Ramona - 02 On and On.flac
+2:Grace Cummings/Ramona/Grace Cummings - Ramona - 03 I'm Getting Married to The War.flac
+3:Grace Cummings/Ramona/Grace Cummings - Ramona - 04 Love and the Canyon.flac
+4:Grace Cummings/Ramona/Grace Cummings - Ramona - 05 Work Today (and Tomorrow).flac
+5:Grace Cummings/Ramona/Grace Cummings - Ramona - 06 Everybody's Somebody.flac
+6:Grace Cummings/Ramona/Grace Cummings - Ramona - 07 Common Man.flac
+7:Grace Cummings/Ramona/Grace Cummings - Ramona - 08 Without You.flac
+8:Grace Cummings/Ramona/Grace Cummings - Ramona - 09 Ramona.flac
+9:Grace Cummings/Ramona/Grace Cummings - Ramona - 10 A Precious Thing.flac
+10:Grace Cummings/Ramona/Grace Cummings - Ramona - 11 Help Is On Its Way.flac
 playlist_end

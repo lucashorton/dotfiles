@@ -1,6 +1,7 @@
 exec_always kanshi
 exec_always autotiling
 exec mako
+exec mpDris2
 exec nextcloud --background
 exec sway-audio-idle-inhibit
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
