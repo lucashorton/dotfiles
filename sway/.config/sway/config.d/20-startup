@@ -1,5 +1,6 @@
 exec_always kanshi
 exec_always autotiling
+exec foot -s
 exec mako
 exec mpDris2
 exec nextcloud --background

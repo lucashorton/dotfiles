@@ -1,1 +1,1 @@
-bindsym $mod+Return exec foot 
+bindsym $mod+Return exec footclient
