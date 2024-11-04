@@ -1,17 +1,3 @@
 bar {
- status_command i3status-rs --never-pause
- position top
- tray_output *
- font "Fira Code 11"
- colors {
-   statusline #c0caf5
-   background #1a1b26
-   focused_workspace #1a1b26 #1a1b26 #ff9e64
-   active_workspace #1a1b26 #1a1b26 #c0caf5
-   inactive_workspace #1a1b26 #1a1b26 #414868
-   binding_mode #1a1b26 #1a1b26 #f7768e
- }
- tray {
-   icon_theme Kora 
- }
+ status_command ~/.config/waybar/waybar.sh
 }

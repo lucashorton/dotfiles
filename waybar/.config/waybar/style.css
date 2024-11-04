@@ -1,6 +1,6 @@
 * {
   border: none;
-  font-family: "MonoLisa Variable";
+  font-family: "Fira Code";
   font-size: 12px;
   font-weight: 600;
 }
@@ -13,7 +13,7 @@ window#waybar {
 
 .modules-right,
 .modules-left {
-  background: rgba(26, 27, 38, 0.75);
+  background: #1a1b26;
   padding: 0 15px;
   border-radius: 5px;
 }
@@ -27,9 +27,9 @@ window#waybar {
 }
 
 #workspaces button {
-  margin: 2px 2px 2px 2px;
+  margin: 2px 0;
   border-radius: 0;
-  padding: 1px 5px;
+  padding: 0;
   color: #c0caf5;
   border: none;
 }
@@ -42,8 +42,7 @@ window#waybar {
 
 #workspaces button.active,
 #workspaces button.focused {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
+  background-color: #283457; 
 }
 
 #workspaces button.urgent {

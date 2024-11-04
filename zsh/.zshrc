@@ -47,14 +47,13 @@ function gogh() {
 }
 
 # Aliases
-alias docker='podman'
 alias history='fc -l 1'
 alias u='update'
 alias w='weather'
 alias vi="nvim"
 alias vim="nvim"
 alias mutt="neomutt"
-alias orphan="yay -Qtdq | yay -Rns -"
+alias orphan="paru -Qtdq | paru -Rns -"
 # Print greeting
 greeting
 
