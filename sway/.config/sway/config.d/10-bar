@@ -1,3 +1,0 @@
-bar {
- status_command ~/.config/waybar/waybar.sh
-}
