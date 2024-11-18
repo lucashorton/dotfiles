@@ -1,7 +1,7 @@
 * {
   border: none;
   font-family: "Caskaydia Cove Nerd Font";
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -16,27 +16,31 @@ window#waybar {
 .modules-left {
   background: rgba(30, 30, 46, 0.6);
   padding: 0 15px;
-  border-radius: 10px;
-  border: 2px solid #89dceb;
+  border-left: 2px solid #89dceb;
+  border-right: 2px solid #89dceb;
+  border-bottom: 2px solid #89dceb;
   box-shadow: 0 0 4px #1a1a1aee;
-  margin: 0;
+  margin-top: 0;
 }
 
 .modules-right {
-  margin-right: 10px;
+  border-radius: 0 0 0 10px;
+  border-right: 0;
 }
 
 .modules-center {
   margin: 0 10px;
+  border-radius: 0 0 10px 10px;
 }
 
 .modules-left {
-  margin-left: 10px;
+  border-radius: 0 0 10px 0;
+  border-left: 0;
 }
 
 #workspaces button {
   margin: 2px;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 2px solid #89dceb;
   padding: 0 5px;
   background: none;
