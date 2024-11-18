@@ -3,7 +3,7 @@ border-radius=10
 border-color=#89dceb
 border-size=2
 default-timeout=5000
-font="Fira Code 8"
+font=CaskaydiaCove Nerd Font 8
 format=<span weight="bold" size="14000" rise="10000">%s</span>\n<span size="12000">%b</span>
 height=125
 icon-path=/usr/share/icons/kora
