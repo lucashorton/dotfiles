@@ -1,4 +1,4 @@
-background-color=#181B26
+background-color=#1E1E2E
 border-radius=10
 border-size=0
 default-timeout=5000
@@ -9,9 +9,9 @@ icon-path=/usr/share/icons/kora
 ignore-timeout=1
 layer=top
 padding=12
-progress-color=source #9ECE7A
+progress-color=source #89DCEB
 sort=-time
-text-color=#C0CAF5
+text-color=#CDD6F4
 width=500
 
 [app-name=volume-bar]
@@ -22,7 +22,7 @@ text-alignment=right
 
 [app-name=mute-indicator]
 anchor=bottom-center
-background-color=#F7768E
+background-color=#1E1E@E
 format=<span weight="bold" size="16000">%s</span>
 max-icon-size=32
 text-alignment=left
