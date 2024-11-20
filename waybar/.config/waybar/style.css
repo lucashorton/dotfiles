@@ -1,4 +1,4 @@
-* {
+j {
   border: none;
   font-family: "Caskaydia Cove Nerd Font";
   font-size: 14px;
@@ -14,7 +14,7 @@ window#waybar {
 .modules-right,
 .modules-center,
 .modules-left {
-  background: rgba(30, 30, 46, 0.6);
+  background: rgba(30, 30, 46, 0.9);
   padding: 0 15px;
   border-left: 2px solid #89dceb;
   border-right: 2px solid #89dceb;
