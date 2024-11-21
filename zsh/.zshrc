@@ -54,8 +54,12 @@ alias vi="nvim"
 alias vim="nvim"
 alias mutt="neomutt"
 alias orphan="paru -Qtdq | paru -Rns -"
+
 # Print greeting
 greeting
+
+# Zoxide
+eval "$(zoxide init zsh)"
 
 # Mise
 eval "$(/usr/bin/mise activate zsh)"
