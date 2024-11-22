@@ -8,43 +8,34 @@
 window#waybar {
   background: none;
   border-bottom: none;
-  color: #89dceb;
+  color: #cdd6f4;
+  background: rgba(30, 30, 46, 0.9);
+  border-radius: 10px;
 }
 
 .modules-right,
 .modules-center,
 .modules-left {
-  background: rgba(30, 30, 46, 0.9);
   padding: 0 15px;
-  border-left: 2px solid #89dceb;
-  border-right: 2px solid #89dceb;
-  border-bottom: 2px solid #89dceb;
-  box-shadow: 0 0 4px #1a1a1aee;
   margin-top: 0;
 }
 
 .modules-right {
-  border-radius: 0 0 0 10px;
-  border-right: 0;
 }
 
 .modules-center {
   margin: 0 10px;
-  border-radius: 0 0 10px 10px;
 }
 
 .modules-left {
-  border-radius: 0 0 10px 0;
-  border-left: 0;
 }
 
 #workspaces button {
   margin: 2px;
   border-radius: 10px;
-  border: 2px solid #89dceb;
   padding: 0 5px;
   background: none;
-  color: #7dcfff;
+  color: #cdd6f4;
 }
 
 #workspaces button:hover {
@@ -55,8 +46,8 @@ window#waybar {
 
 #workspaces button.active,
 #workspaces button.focused {
-  background: #89dceb;
-  color: #1e1e2e;
+  background: #585b70;
+  color: #cdd6f4;
 }
 
 #workspaces button.urgent {
