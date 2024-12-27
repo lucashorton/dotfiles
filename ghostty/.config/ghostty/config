@@ -1,0 +1,4 @@
+theme = catppuccin-mocha
+font-family = "CaskaydiaCove Nerd Font"
+window-padding-x = 4
+window-padding-y = 4
