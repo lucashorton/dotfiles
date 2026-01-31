@@ -1,6 +1,6 @@
-background-color=#1e1e2e
+background-color=#191724
 border-radius=10
-border-color=#89dceb
+border-color=#9ccfd8
 border-size=2
 default-timeout=5000
 font=CaskaydiaCove Nerd Font 8
@@ -10,9 +10,9 @@ icon-path=/usr/share/icons/kora
 ignore-timeout=1
 layer=top
 padding=12
-progress-color=#89dceb
+progress-color=#31748f
 sort=-time
-text-color=#cdd6f4
+text-color=#e0def4
 width=500
 
 [app-name=volume-bar]

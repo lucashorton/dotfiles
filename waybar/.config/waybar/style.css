@@ -1,3 +1,5 @@
+@import "./rose-pine.css";
+
 * {
   border: none;
   font-family: "CaskaydiaCove Nerd Font";
@@ -8,8 +10,8 @@
 window#waybar {
   background: none;
   border-bottom: none;
-  color: #cdd6f4;
-  background: rgba(30, 30, 46, 0.9);
+  color: @text;
+  background: @base;
   border-radius: 10px;
 }
 
@@ -35,7 +37,7 @@ window#waybar {
   border-radius: 10px;
   padding: 0 5px;
   background: none;
-  color: #a6adc8;
+  color: @muted;
 }
 
 #workspaces button:hover {
@@ -46,12 +48,12 @@ window#waybar {
 
 #workspaces button.active,
 #workspaces button.focused {
-  background: #585b70;
-  color: #cdd6f4;
+  background: @foam;
+  color: @base;
 }
 
 #workspaces button.urgent {
-  background-color: #f38ba8;
+  background-color: @love;
 }
 
 #clock,
@@ -72,13 +74,13 @@ window#waybar {
 }
 
 #mode {
-  color: #fab387;
+  color: @gold;
 }
 
 #idle_inhibitor.activated {
-  color: #9ece6a;
+  color: @pine;
 }
 
 #temperature.critical {
-  color: #f38ba8;
+  color: @love;
 }
