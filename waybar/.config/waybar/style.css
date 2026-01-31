@@ -8,8 +8,7 @@
 }
 
 window#waybar {
-  background: none;
-  border-bottom: none;
+  border: 2px solid @foam;
   color: @text;
   background: @base;
   border-radius: 10px;
@@ -33,7 +32,7 @@ window#waybar {
 }
 
 #workspaces button {
-  margin: 2px;
+  margin: 5px;
   border-radius: 10px;
   padding: 0 5px;
   background: none;
