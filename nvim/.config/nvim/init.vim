@@ -28,6 +28,7 @@ Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'sharkdp/fd'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'Luxed/ayu-vim'
+Plug 'rose-pine/neovim'
 call plug#end()
 
 " CoC extensions
@@ -57,8 +58,7 @@ filetype plugin on " Enable filetype-specific plugins
 
 set termguicolors
 set background=dark
-let g:ayucolor="mirage"
-colorscheme ayu
+colorscheme rose-pine 
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'

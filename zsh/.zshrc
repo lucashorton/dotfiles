@@ -57,7 +57,6 @@ alias u='update'
 alias w='weather'
 alias vi="nvim"
 alias vim="nvim"
-alias mutt="neomutt"
 alias orphan="paru -Qtdq | paru -Rns -"
 alias cat="bat"
 
