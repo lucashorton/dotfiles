@@ -8,15 +8,15 @@
 }
 
 window#waybar {
-  border: 2px solid @foam;
-  color: @text;
-  background: @base;
-  border-radius: 10px;
+  background:none;
 }
 
 .modules-right,
 .modules-center,
 .modules-left {
+  color: @text;
+  background: @base;
+  border-radius: 10px;
   padding: 0 15px;
   margin-top: 0;
 }
@@ -33,26 +33,17 @@ window#waybar {
 
 #workspaces button {
   margin: 5px;
-  border-radius: 10px;
-  padding: 0 5px;
+  padding: 0;
   background: none;
   color: @muted;
 }
 
-#workspaces button:hover {
-  box-shadow: inherit;
-  text-shadow: inherit;
-  background: none;
-}
-
-#workspaces button.active,
-#workspaces button.focused {
-  background: @foam;
-  color: @base;
+#workspaces button.visible{
+  color: @foam;
 }
 
 #workspaces button.urgent {
-  background-color: @love;
+  color: @love;
 }
 
 #clock,
@@ -61,7 +52,7 @@ window#waybar {
 #memory,
 #temperature,
 #network,
-#pulseaudio,
+#wireplumber,
 #custom-playerctl,
 #custom-arch_updates,
 #tray,
