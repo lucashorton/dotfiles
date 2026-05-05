@@ -1,7 +1,7 @@
 # ZSH Config
 
 # uwsm compositor selection
-if uwsm check may-start && uwsm select; then
+if uwsm check may-start 1>/dev/null && uwsm select; then
 	exec systemd-cat -t uwsm_start uwsm start default
 fi
 
@@ -16,7 +16,7 @@ setopt SHARE_HISTORY
 setopt HIST_FIND_NO_DUPS
 
 # Path
-export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/.config/emacs/bin:$PATH
 
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
@@ -58,7 +58,7 @@ alias u='update'
 alias w='weather'
 alias vi="nvim"
 alias vim="nvim"
-alias orphan="paru -Qtdq | paru -Rns -"
+alias orphan="sudo pacman -Qtdq | sudo pacman -Rns -"
 alias cat="bat"
 
 # Print greeting

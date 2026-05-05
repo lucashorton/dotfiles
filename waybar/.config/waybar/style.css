@@ -3,7 +3,7 @@
 * {
   border: none;
   font-family: "MonoLisa Variable", "Font Awesome 7 Free Solid";
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -32,7 +32,7 @@ window#waybar {
 }
 
 #workspaces button {
-  margin: 5px;
+  margin: 5px 0;
   padding: 0;
   background: none;
   color: @muted;
