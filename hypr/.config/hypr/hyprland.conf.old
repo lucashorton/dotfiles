@@ -9,10 +9,8 @@ source=~/.config/hypr/rose-pine.conf
 ################
 
 # See https://wiki.hyprland.org/Configuring/Monitors/
-monitor = HDMI-A-1, 2560x1600, 0x0, 1.6 
-monitor = DP-5, 3840x2160, 1600x0, 1.5 
-monitor = eDP-1, 2256x1504, 4160x0, 1.56667 
-monitor=,preferred,auto,auto
+monitor = eDP-1, 2256x1504, 0x0, 1.56667 
+#monitor=,preferred,auto,auto
 
 
 ###################
@@ -138,7 +136,6 @@ workspace = 3, monitor:HDMI-A-1
 
 # See https://wiki.hyprland.org/Configuring/Dwindle-Layout/ for more
 dwindle {
-    pseudotile = true # Master switch for pseudotiling. Enabling is bound to mainMod + P in the keybinds section below
     preserve_split = true # You probably want this
 }
 
@@ -209,7 +206,6 @@ bind = $mainMod, E, exec, $fileManager
 bind = $mainMod, V, togglefloating,
 bind = $mainMod, R, exec, $menu
 bind = $mainMod, P, pseudo, # dwindle
-bind = $mainMod, J, togglesplit, # dwindle
 bind = $mainMod, F, fullscreen
 
 # Move focus with mainMod + arrow keys
